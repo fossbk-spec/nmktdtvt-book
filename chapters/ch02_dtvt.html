@@ -325,7 +325,49 @@ window.Quarto = {
 <h3 data-number="2.3.3" class="anchored" data-anchor-id="máy-tính-mạng-và-hệ-sinh-thái-iot"><span class="header-section-number">2.3.3</span> Máy tính, mạng và hệ sinh thái IoT</h3>
 <p>Một máy tính gồm 4 khối chức năng: Nhận vào → Lưu trữ → Xử lý → Đưa ra. Phần mềm hệ thống gồm hệ điều hành, firmware/BSP, device driver. Mạng viễn thông truyền thông tin qua cáp đồng, cáp quang, sóng vô tuyến (Wi-Fi, Bluetooth, 3G/4G/5G, vệ tinh).</p>
 <p><strong>IoT (Internet of Things):</strong> hệ thống thiết bị tính toán/cơ khí được số hoá, kết nối trong không gian thực–ảo, có định danh riêng, tự động trao đổi dữ liệu máy-với-máy (M2M) và phân tích dữ liệu thời gian thực.</p>
-<p><strong>Mô hình phân lớp hệ thống AIoT (5 lớp):</strong> (1) Thiết bị vật lý/cảm biến &amp; cơ cấu chấp hành; (2) Phần cứng (mạch số/tương tự, bộ xử lý, RF/Anten, bus I2C/SPI/UART); (3) Phần mềm hệ thống (driver, firmware, RTOS); (4) Mạng &amp; giao thức truyền thông (TCP/IP, Wi-Fi, 4G/5G, MQTT, HTTP); (5) Phần mềm ứng dụng &amp; phân tích AI/ML. Phần lý thuyết AI/ML nền tảng ở lớp 5 được trình bày đầy đủ hơn trong giáo trình tổng quan <span class="citation" data-cites="russell_norvig_aima">(<a href="#ref-russell_norvig_aima" role="doc-biblioref">Russell và Norvig, không ngày</a>)</span> — xem thêm Phụ lục B.</p>
+<p><strong>Mô hình phân lớp hệ thống AIoT (5 lớp)</strong> và <strong>vị trí việc làm tương ứng</strong> — mỗi lớp trong mô hình kỹ thuật ứng với một nhóm công việc thật trong doanh nghiệp:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lớp</th>
+<th>Nội dung kỹ thuật</th>
+<th>Vị trí việc làm liên quan</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1 — Thiết bị vật lý</td>
+<td>Cảm biến, cơ cấu chấp hành</td>
+<td>Kỹ sư phần cứng, kỹ sư cảm biến</td>
+</tr>
+<tr class="even">
+<td>2 — Phần cứng</td>
+<td>Mạch số/tương tự, bộ xử lý, RF/Anten, bus I2C/SPI/UART</td>
+<td>Kỹ sư thiết kế mạch (PCB), kỹ sư thiết kế vi mạch (IC)</td>
+</tr>
+<tr class="odd">
+<td>3 — Phần mềm hệ thống</td>
+<td>Driver, firmware, RTOS</td>
+<td>Kỹ sư lập trình nhúng (Embedded Engineer)</td>
+</tr>
+<tr class="even">
+<td>4 — Mạng &amp; giao thức</td>
+<td>TCP/IP, Wi-Fi, 4G/5G, MQTT, hạ tầng trạm phát sóng eNodeB và lõi mạng (EPC)</td>
+<td>Kỹ sư mạng viễn thông</td>
+</tr>
+<tr class="odd">
+<td>5 — Ứng dụng &amp; AI/ML</td>
+<td>Phân tích dữ liệu, AI/ML</td>
+<td>Kỹ sư AI/dữ liệu (Data/AI Engineer)</td>
+</tr>
+</tbody>
+</table>
+<p>Phần lý thuyết AI/ML nền tảng ở lớp 5 được trình bày đầy đủ hơn trong giáo trình tổng quan <span class="citation" data-cites="russell_norvig_aima">(<a href="#ref-russell_norvig_aima" role="doc-biblioref">Russell và Norvig, không ngày</a>)</span> — xem thêm Phụ lục B. Đây chính là 5 trong số các vị trí tuyển dụng nhiều sinh viên SEEE 2024 nhất đã nêu ở Chương 1 (lập trình nhúng, thiết kế mạch/vi mạch, AI/ML, mạng viễn thông…).</p>
 </section>
 </section>
 <section id="case-study-tình-huống-nghề-nghiệp-thực-tế" class="level2" data-number="2.4">
@@ -359,6 +401,7 @@ window.Quarto = {
 <li>Vẽ sơ đồ 5 lớp AIoT cho một thiết bị IoT bạn đã biết (ví dụ: camera an ninh thông minh).</li>
 <li>Giải thích ý nghĩa thực tiễn của định luật Moore đối với tốc độ phát triển của ngành ĐTVT.</li>
 <li>Vì sao cần chú ý đến EOS/ESD khi thao tác với vi mạch bán dẫn trong phòng thực hành?</li>
+<li>Trong bảng 5 lớp AIoT, bạn thấy mình hứng thú với vị trí việc làm nào nhất (phần cứng, nhúng, mạng, hay AI/dữ liệu)? Lý do?</li>
 </ol>
 </section>
 <section id="nguồn-tham-khảo-của-chương" class="level3" data-number="2.5.2">
