@@ -291,6 +291,7 @@ window.Quarto = {
 </section>
 <section id="bản-đồ-khái-niệm-tổng-quan" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="bản-đồ-khái-niệm-tổng-quan"><span class="header-section-number">2.2</span> Bản đồ khái niệm tổng quan</h2>
+<p>Sơ đồ dưới đây cho thấy một hệ thống AIoT theo năm lớp, từ nơi tiếp xúc với môi trường thực đến nơi sử dụng dữ liệu. Các mũi tên biểu thị đường đi khái quát của thông tin giữa các lớp.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -308,6 +309,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<p>Lớp 1 gồm cảm biến thu nhận tín hiệu và cơ cấu chấp hành tác động lên môi trường. Lớp 2 là phần cứng xử lý và kết nối các phần tử điện tử, gồm mạch số/tương tự, RF và bus giao tiếp. Lớp 3 gồm driver, firmware và RTOS để điều khiển phần cứng. Lớp 4 chuyển dữ liệu qua mạng và các giao thức truyền thông, thường đưa dữ liệu lên hạ tầng đám mây (cloud). Lớp 5 lưu trữ và xử lý dữ liệu đó ở tầng ứng dụng, bao gồm các tác vụ phân tích và AI/ML.</p>
 </section>
 <section id="nội-dung-cốt-lõi" class="level2" data-number="2.3">
 <h2 data-number="2.3" class="anchored" data-anchor-id="nội-dung-cốt-lõi"><span class="header-section-number">2.3</span> Nội dung cốt lõi</h2>
@@ -326,10 +328,13 @@ window.Quarto = {
 <li><strong>Đại số Boolean:</strong> NOT (<span class="math inline">\(Y=\bar X\)</span>), AND (<span class="math inline">\(Y = X \cdot Y\)</span>), OR (<span class="math inline">\(Y = X + Y\)</span>), cùng các cổng kết hợp NAND, NOR, XOR.</li>
 <li><strong>Định luật Moore:</strong> mật độ tích hợp transistor trên vi mạch tăng gấp đôi sau mỗi 18–24 tháng.</li>
 </ul>
+<p><strong>Ví dụ 4.1 (Slide 04 — dòng điện từ điện tích).</strong> Điện tích <span class="math inline">\(q = 3.47 \times 10^{-6}\text{ C}\)</span> đi qua mạch trong thời gian <span class="math inline">\(t = 10\ \mu\text{s}\)</span>. Lấy điện tích chia cho thời gian theo bài mẫu: <span class="math inline">\(I = q/t = (3.47 \times 10^{-6}\text{ C})/(10\ \mu\text{s}) = 0.347\text{ A}\)</span>.</p>
+<p><strong>Ví dụ 4.6 (Slide 04 — công suất trên điện trở).</strong> Điện trở <span class="math inline">\(R = 100\ \Omega\)</span> có dòng tối đa <span class="math inline">\(I = 35\text{ mA}\)</span>. Thay đúng các giá trị của bài mẫu vào biểu thức công suất: <span class="math inline">\(P = I^2R = (35\text{ mA})^2 \cdot 100\ \Omega = 0.1225\text{ W} = 122.5\text{ mW}\)</span>.</p>
 </section>
 <section id="máy-tính-mạng-và-hệ-sinh-thái-iot" class="level3" data-number="2.3.3">
 <h3 data-number="2.3.3" class="anchored" data-anchor-id="máy-tính-mạng-và-hệ-sinh-thái-iot"><span class="header-section-number">2.3.3</span> Máy tính, mạng và hệ sinh thái IoT</h3>
 <p>Một máy tính gồm 4 khối chức năng: Nhận vào → Lưu trữ → Xử lý → Đưa ra. Phần mềm hệ thống gồm hệ điều hành, firmware/BSP, device driver. Mạng viễn thông truyền thông tin qua cáp đồng, cáp quang, sóng vô tuyến (Wi-Fi, Bluetooth, 3G/4G/5G, vệ tinh).</p>
+<p><strong>Ví dụ minh họa — mạch khuếch đại dùng Op-Amp.</strong> Trong một mạch đơn giản, các điện trở ở đường tín hiệu là linh kiện thụ động: chúng cản dòng và không tự khuếch đại tín hiệu. Op-Amp là linh kiện tích cực: khi được cấp nguồn nuôi, nó có thể khuếch đại tín hiệu đưa vào. Vì vậy, vai trò của điện trở và Op-Amp trong cùng mạch khác nhau ở khả năng khuếch đại và nhu cầu nguồn nuôi của linh kiện.</p>
 <p><strong>IoT (Internet of Things):</strong> hệ thống thiết bị tính toán/cơ khí được số hoá, kết nối trong không gian thực–ảo, có định danh riêng, tự động trao đổi dữ liệu máy-với-máy (M2M) và phân tích dữ liệu thời gian thực.</p>
 <p><strong>Mô hình phân lớp hệ thống AIoT (5 lớp)</strong> và <strong>vị trí việc làm tương ứng</strong> — mỗi lớp trong mô hình kỹ thuật ứng với một nhóm công việc thật trong doanh nghiệp:</p>
 <table class="caption-top table">

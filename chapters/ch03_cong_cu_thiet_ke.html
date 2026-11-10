@@ -300,6 +300,7 @@ window.Quarto = {
 </section>
 <section id="bản-đồ-khái-niệm-tổng-quan" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="bản-đồ-khái-niệm-tổng-quan"><span class="header-section-number">3.2</span> Bản đồ khái niệm tổng quan</h2>
+<p>Sơ đồ dưới đây cho thấy cách nối các công cụ phân tích vấn đề với quy trình thiết kế và xác nhận sản phẩm phần cứng.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -318,6 +319,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<p>Trước hết, nhóm dùng 5W2H để làm rõ bài toán và SMART để xác định mục tiêu; khi có lỗi hoặc trở ngại, nhóm tìm nguyên nhân bằng 5 Whys, Fishbone hoặc Pareto. Kết quả phân tích dẫn vào các bước thiết kế EDP, rồi đến xác nhận phần cứng và tổng kết bài học; khi kiểm thử phát hiện vấn đề, nhóm quay lại bước phân tích phù hợp.</p>
 </section>
 <section id="nội-dung-cốt-lõi" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="nội-dung-cốt-lõi"><span class="header-section-number">3.3</span> Nội dung cốt lõi</h2>
@@ -326,6 +328,7 @@ window.Quarto = {
 <p>Nội dung mục này có thể đối chiếu thêm với phương pháp luận giải quyết vấn đề trong <span class="citation" data-cites="nguyenvuphuongnam_4buoc">(<a href="#ref-nguyenvuphuongnam_4buoc" role="doc-biblioref">Nam, không ngày</a>)</span> (lưu ý: sách trình bày theo 4 bước, trong khi nguyên liệu tổng hợp của chương này có quy trình 7 bước chi tiết hơn — chưa xác nhận hai khung này có tương đương 1-1 hay không).</p>
 <p>Trước khi thiết kế một giải pháp kỹ thuật, cần phân tích đúng bài toán. Công cụ <strong>5W2H</strong> (Who, What, Where, When, Why, How, How much/many) giúp mô tả đầy đủ vấn đề trước khi đi tìm giải pháp.</p>
 <p>Mục tiêu sau khi phân tích cần đạt nguyên tắc <strong>SMART</strong>: Specific (Cụ thể) – Measurable (Đo lường được) – Attainable (Có thể đạt được) – Relevant/Realistic (Thực tế, phù hợp) – Time-bound (Có mốc thời hạn).</p>
+<p><strong>Ví dụ minh họa (tình huống giả định):</strong> Một nhóm muốn làm thiết bị cảnh báo khi cửa mở. Với <strong>5W2H</strong>, nhóm hỏi: <em>Who</em> — ai cần nhận cảnh báo? <em>What</em> — cần phát hiện trạng thái cửa mở; <em>Where</em> — tại cửa được chọn để thử nghiệm; <em>When</em> — ngay khi cửa chuyển sang trạng thái mở; <em>Why</em> — để người dùng nhận biết cửa đang mở; <em>How</em> — dùng cảm biến cửa và tín hiệu báo; <em>How much/many</em> — cần những linh kiện, công sức và nguồn lực nào? Từ đó, nhóm đặt mục tiêu <strong>SMART</strong>: trước buổi trình diễn đồ án, hoàn thành bản mẫu dùng các linh kiện nhóm có thể chuẩn bị, nhận biết trạng thái mở của cửa thử nghiệm và phát tín hiệu báo <strong>trong vòng tối đa 2 giây</strong> kể từ khi cửa mở; kiểm tra đạt hay chưa bằng cách mở cửa, bấm giờ và quan sát tín hiệu. Mục tiêu này nêu rõ chức năng, ngưỡng đo được cụ thể, cách kiểm tra, điều kiện thực hiện và thời hạn, không giả định kết quả đo có thật.</p>
 <p>Một số mô hình quản lý/giải quyết vấn đề khác được dùng trong thực hành kỹ thuật:</p>
 <ul>
 <li><strong>GROW:</strong> Goal (Mục tiêu) → Reality (Thực tế) → Options (Phương án) → Will (Hành động).</li>
@@ -346,6 +349,15 @@ window.Quarto = {
 <li><strong>Biểu đồ phân tán (Scatter Plot):</strong> đánh giá mối quan hệ phụ thuộc giữa hai biến số kỹ thuật.</li>
 <li><strong>Lưu đồ thuật toán (Flowchart):</strong> mô hình hoá trình tự xử lý của một quy trình/thuật toán.</li>
 </ul>
+<p><strong>Ví dụ minh họa (tình huống giả định):</strong> Bản mẫu mạch cảnh báo không phát tín hiệu khi cửa mở. Nhóm dùng <strong>5 Whys</strong> để lần theo một <em>giả thuyết</em> nguyên nhân:</p>
+<ol type="1">
+<li>Tại sao mạch không phát tín hiệu? Vì bộ phát tín hiệu không nhận được lệnh kích hoạt.</li>
+<li>Tại sao bộ phát tín hiệu không nhận được lệnh? Vì chương trình không nhận biết cửa đã mở.</li>
+<li>Tại sao chương trình không nhận biết cửa đã mở? Vì tín hiệu từ cảm biến không tới đúng chân đầu vào.</li>
+<li>Tại sao tín hiệu không tới đúng chân đầu vào? Vì dây tín hiệu được nối vào chân khác với chân khai báo trong chương trình.</li>
+<li>Tại sao hai chân không khớp? Vì nhóm chưa đối chiếu sơ đồ nối dây với khai báo chân khi lắp mạch.</li>
+</ol>
+<p>Nhóm cần kiểm tra dây nối và khai báo chân trên bản mẫu để xác nhận hoặc bác bỏ chuỗi giả thuyết này trước khi sửa.</p>
 </section>
 </section>
 <section id="công-cụ-và-quy-trình-thực-hành" class="level2" data-number="3.4">
@@ -363,6 +375,7 @@ window.Quarto = {
 <li>Chế tạo/sản xuất bản mẫu (Manufacture Prototype).</li>
 <li>Đưa sản phẩm ra thị trường &amp; tổng kết (Deliver &amp; Review).</li>
 </ol>
+<p>Trong Chương 4, nhóm sẽ vận dụng trình tự này khi thực hiện đồ án: từ xác định nhu cầu và chỉ tiêu đến thiết kế, kiểm thử bản mẫu và tổng kết kết quả.</p>
 </section>
 <section id="quy-trình-xác-nhận-phần-cứng-công-nghiệp-hardware-validation-pipeline" class="level3" data-number="3.4.2">
 <h3 data-number="3.4.2" class="anchored" data-anchor-id="quy-trình-xác-nhận-phần-cứng-công-nghiệp-hardware-validation-pipeline"><span class="header-section-number">3.4.2</span> Quy trình xác nhận phần cứng công nghiệp (Hardware Validation Pipeline)</h3>

@@ -266,6 +266,7 @@ window.Quarto = {
 </section>
 <section id="bản-đồ-khái-niệm-tổng-quan" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="bản-đồ-khái-niệm-tổng-quan"><span class="header-section-number">4.2</span> Bản đồ khái niệm tổng quan</h2>
+<p>Sơ đồ sau tóm tắt đường đi của dữ liệu cảm biến và các đầu ra trong một hệ thống IoT dùng cho đồ án nhóm.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -284,6 +285,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
+<p>Cảm biến gửi dữ liệu về vi điều khiển để xử lý. Từ đó, vi điều khiển có thể đưa thông tin lên màn hình qua I2C, gửi dữ liệu qua Wi-Fi đến cloud để ứng dụng trên điện thoại hiển thị, đồng thời điều khiển LED, relay, buzzer hoặc servo theo chương trình.</p>
 </section>
 <section id="nội-dung-cốt-lõi" class="level2" data-number="4.3">
 <h2 data-number="4.3" class="anchored" data-anchor-id="nội-dung-cốt-lõi"><span class="header-section-number">4.3</span> Nội dung cốt lõi</h2>
@@ -338,9 +340,11 @@ window.Quarto = {
 <section id="nguyên-lý-kỹ-thuật-dùng-trong-đồ-án" class="level3" data-number="4.3.3">
 <h3 data-number="4.3.3" class="anchored" data-anchor-id="nguyên-lý-kỹ-thuật-dùng-trong-đồ-án"><span class="header-section-number">4.3.3</span> Nguyên lý kỹ thuật dùng trong đồ án</h3>
 <ul>
-<li><strong>Chuyển đổi tín hiệu tương tự/số (ADC):</strong> điện áp analog từ cảm biến (0–3,3V hoặc 0–5V) được chuyển sang giá trị số 10-bit (0–1023, Arduino) hoặc 12-bit (0–4095, ESP32).</li>
-<li><strong>Giao thức I2C:</strong> 2 đường dây SDA (dữ liệu) và SCL (xung nhịp) để giao tiếp vi điều khiển với màn hình LCD/OLED.</li>
-<li><strong>Thuật toán vòng lặp quét (polling loop):</strong> khởi tạo I/O/LCD/Wi-Fi → đọc định kỳ cảm biến (ví dụ mỗi 2000ms) → kiểm tra ngưỡng an toàn (ví dụ <span class="math inline">\(T &gt; 35^\circ C\)</span> hoặc <span class="math inline">\(Gas &gt; 400\text{ppm}\)</span>) → kích hoạt/tắt cơ cấu chấp hành tương ứng → cập nhật LCD và đẩy dữ liệu lên cloud.</li>
+<li><p><strong>Chuyển đổi tín hiệu tương tự/số (ADC):</strong> điện áp analog từ cảm biến (0–3,3V hoặc 0–5V) được chuyển sang giá trị số 10-bit (0–1023, Arduino) hoặc 12-bit (0–4095, ESP32).</p>
+<p><strong>Ví dụ tính toán minh họa công thức (không phải số liệu đo đạc thực tế):</strong> giả sử điện áp đưa vào ADC 10-bit của Arduino là <span class="math inline">\(2{,}5\,\mathrm{V}\)</span> trên thang <span class="math inline">\(0\)</span>–<span class="math inline">\(5\,\mathrm{V}\)</span>. Giá trị số tương ứng được tính theo công thức</p>
+<p><span class="math display">\[\text{giá trị số} = \frac{\text{điện áp}}{\text{điện áp tối đa}}\,(2^{\text{số bit}}-1) = \frac{2{,}5}{5}\,(2^{10}-1) = 511{,}5 \approx 512.\]</span></p></li>
+<li><p><strong>Giao thức I2C:</strong> 2 đường dây SDA (dữ liệu) và SCL (xung nhịp) để giao tiếp vi điều khiển với màn hình LCD/OLED.</p></li>
+<li><p><strong>Thuật toán vòng lặp quét (polling loop):</strong> khởi tạo I/O/LCD/Wi-Fi → đọc định kỳ cảm biến (ví dụ mỗi 2000ms) → kiểm tra ngưỡng an toàn (ví dụ <span class="math inline">\(T &gt; 35^\circ C\)</span> hoặc <span class="math inline">\(Gas &gt; 400\text{ppm}\)</span>) → kích hoạt/tắt cơ cấu chấp hành tương ứng → cập nhật LCD và đẩy dữ liệu lên cloud.</p></li>
 </ul>
 </section>
 <section id="lộ-trình-triển-khai-đồ-án-6-tuần" class="level3" data-number="4.3.4">
