@@ -187,6 +187,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#checklist-số-liệu-theo-biến" id="toc-checklist-số-liệu-theo-biến" class="nav-link active" data-scroll-target="#checklist-số-liệu-theo-biến">Checklist số liệu theo biến</a></li>
   <li><a href="#số-liệu-không-đặt-qua-biến" id="toc-số-liệu-không-đặt-qua-biến" class="nav-link" data-scroll-target="#số-liệu-không-đặt-qua-biến">Số liệu không đặt qua biến</a></li>
+  <li><a href="#kết-luận-rà-soát-theo-chương-đã-làm-ở-chương-1-2-4-xem-lịch-sử-commit" id="toc-kết-luận-rà-soát-theo-chương-đã-làm-ở-chương-1-2-4-xem-lịch-sử-commit" class="nav-link" data-scroll-target="#kết-luận-rà-soát-theo-chương-đã-làm-ở-chương-1-2-4-xem-lịch-sử-commit">Kết luận rà soát theo chương (đã làm ở Chương 1, 2, 4 — xem lịch sử commit)</a></li>
   <li><a href="#nội-dung-nền-tảng-không-cần-đưa-vào-checklist-này" id="toc-nội-dung-nền-tảng-không-cần-đưa-vào-checklist-này" class="nav-link" data-scroll-target="#nội-dung-nền-tảng-không-cần-đưa-vào-checklist-này">Nội dung nền tảng (không cần đưa vào checklist này)</a></li>
   <li><a href="#quy-trình-cập-nhật-đề-xuất-mỗi-kỳ-học" id="toc-quy-trình-cập-nhật-đề-xuất-mỗi-kỳ-học" class="nav-link" data-scroll-target="#quy-trình-cập-nhật-đề-xuất-mỗi-kỳ-học">Quy trình cập nhật đề xuất mỗi kỳ học</a></li>
   </ul>
@@ -226,11 +227,20 @@ ul.task-list li input[type="checkbox"] {
 <li><code>thi_truong_ic</code> — Thống kê thị trường ứng dụng IC theo phân khúc. Năm dữ liệu hiện tại: 2017 (đã cũ, nên tra số liệu mới). Dùng ở Chương 2.</li>
 <li><code>ai_index</code> — Xu hướng AI toàn cầu (đi qua trích dẫn học thuật, không qua biến — ghi lại đây để không quên). Năm dữ liệu hiện tại: 2025. Dùng ở Phụ lục B.</li>
 <li><code>khao_sat_sinh_vien</code> — Khảo sát từ khoá sinh viên theo khoá học. Khoá/năm hiện tại: K66, K67, 2026. Dùng ở trang mở đầu.</li>
+<li><code>cong_cu_do_an</code> — Năm tham chiếu danh mục công cụ phần cứng/phần mềm đồ án (Arduino/ESP32/Blynk…). Năm dữ liệu hiện tại: 2026. Chu kỳ rà soát dài hơn các nhóm trên (vài năm, không phải mỗi kỳ). Dùng ở Chương 4.</li>
 </ul>
 </section>
 <section id="số-liệu-không-đặt-qua-biến" class="level2">
 <h2 class="anchored" data-anchor-id="số-liệu-không-đặt-qua-biến">Số liệu không đặt qua biến</h2>
-<p>Một số số liệu vẫn viết trực tiếp trong văn bản vì gắn chặt với câu chữ (ví dụ phần trăm phân bổ việc làm theo nhóm ngành ở Chương 1, danh sách công ty tuyển dụng, danh mục 6 đề tài IoT mẫu ở Chương 4) — khi cập nhật các mục này, cần sửa trực tiếp trong file nguồn tương ứng, không có cơ chế tự động.</p>
+<p>Một số số liệu vẫn viết trực tiếp trong văn bản vì gắn chặt với câu chữ (ví dụ phần trăm phân bổ việc làm theo nhóm ngành ở Chương 1, danh sách công ty tuyển dụng, danh mục 6 đề tài IoT mẫu ở Chương 4) — khi cập nhật các mục này, cần sửa trực tiếp trong file nguồn tương ứng, không có cơ chế tự động. Rubric chấm điểm đồ án ở Chương 4 (các mốc %) cũng thuộc nhóm này — cần đối chiếu lại với đề cương chính thức của đúng kỳ đang dạy, không coi là cố định.</p>
+</section>
+<section id="kết-luận-rà-soát-theo-chương-đã-làm-ở-chương-1-2-4-xem-lịch-sử-commit" class="level2">
+<h2 class="anchored" data-anchor-id="kết-luận-rà-soát-theo-chương-đã-làm-ở-chương-1-2-4-xem-lịch-sử-commit">Kết luận rà soát theo chương (đã làm ở Chương 1, 2, 4 — xem lịch sử commit)</h2>
+<ul>
+<li><strong>Chương 1, 2:</strong> đã tách số liệu thị trường/thống kê sang <code>_variables.yml</code> (nhóm <code>luong</code>, <code>seee</code>, <code>thi_truong_ic</code>, <code>khao_sat_sinh_vien</code>).</li>
+<li><strong>Chương 3:</strong> đã rà soát, <strong>không có</strong> số liệu cần cập nhật theo kỳ — toàn bộ là phương pháp luận/quy trình nền tảng (5W2H, SMART, PDCA, TRIZ, EDP 9 bước, Hardware Validation). Không cần sửa gì ở đây khi vào kỳ mới.</li>
+<li><strong>Chương 4:</strong> công cụ phần cứng/phần mềm và danh mục đề tài mẫu đã gắn chú giải chu kỳ rà soát dài hơn (nhóm biến <code>cong_cu_do_an</code>); rubric đánh giá đồ án cần đối chiếu đề cương mỗi kỳ (xem mục trên).</li>
+</ul>
 </section>
 <section id="nội-dung-nền-tảng-không-cần-đưa-vào-checklist-này" class="level2">
 <h2 class="anchored" data-anchor-id="nội-dung-nền-tảng-không-cần-đưa-vào-checklist-này">Nội dung nền tảng (không cần đưa vào checklist này)</h2>
