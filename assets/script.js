@@ -55,5 +55,3 @@ tabs.forEach((tab, index) => {
     }
   });
 });
-
-document.querySelector(".placeholder-link")?.addEventListener("click", (event) => event.preventDefault());
