@@ -1,0 +1,442 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nhập môn Kỹ thuật Điện tử Viễn thông",
+    "section": "",
+    "text": "Giới thiệu mở đầu\nTài liệu học phần Nhập môn Kỹ thuật Điện tử Viễn thông (mã học phần ET2000).\nĐơn vị quản lý: Trường Điện – Điện tử (SEEE), Đại học Bách khoa Hà Nội.",
+    "crumbs": [
+      "Giới thiệu mở đầu"
+    ]
+  },
+  {
+    "objectID": "index.html#thông-tin-chung",
+    "href": "index.html#thông-tin-chung",
+    "title": "Nhập môn Kỹ thuật Điện tử Viễn thông",
+    "section": "Thông tin chung",
+    "text": "Thông tin chung\n\nMã học phần: ET2000 — 2 tín chỉ 2(2-0-1-4): Lý thuyết 30 tiết; Thực tập nhận thức tại doanh nghiệp bên ngoài (xem activities/thuc-tap-nhan-thuc.qmd).\nVị trí: học phần cơ sở ngành bắt buộc, sinh viên năm thứ nhất.\nHọc phần tiên quyết/học trước: không. Học phần song hành: ET2020 (Thực tập cơ bản).",
+    "crumbs": [
+      "Giới thiệu mở đầu"
+    ]
+  },
+  {
+    "objectID": "index.html#chuẩn-đầu-ra-học-phần-m1m6",
+    "href": "index.html#chuẩn-đầu-ra-học-phần-m1m6",
+    "title": "Nhập môn Kỹ thuật Điện tử Viễn thông",
+    "section": "Chuẩn đầu ra học phần (M1–M6)",
+    "text": "Chuẩn đầu ra học phần (M1–M6)\n\nM1: Phân biệt các ngành kỹ thuật và vai trò của kỹ thuật trong phát triển kinh tế – xã hội.\nM2 (M2.1–M2.3): Lịch sử, đặc điểm, vai trò của ngành Điện tử – Viễn thông.\nM3: Chương trình đào tạo, kiến thức/kỹ năng cần trang bị, công việc sau khi ra trường.\nM4 (M4.1–M4.2): Công cụ và quy trình thiết kế kỹ thuật.\nM5: Làm việc nhóm, báo cáo, thuyết trình, đạo đức thiết kế, tư duy sáng tạo.\nM6: Trải nghiệm thực tế doanh nghiệp ngành Điện tử – Viễn thông.",
+    "crumbs": [
+      "Giới thiệu mở đầu"
+    ]
+  },
+  {
+    "objectID": "index.html#hình-thức-đánh-giá",
+    "href": "index.html#hình-thức-đánh-giá",
+    "title": "Nhập môn Kỹ thuật Điện tử Viễn thông",
+    "section": "Hình thức đánh giá",
+    "text": "Hình thức đánh giá\nMôn học không có thi viết cuối kỳ, đánh giá 100% qua: Điểm quá trình A1 (40%) và Điểm cuối kỳ A2 (60%) — cả hai đều thông qua kết quả đồ án nhóm, báo cáo kỹ thuật và thuyết trình/vấn đáp (xem Chương 4).",
+    "crumbs": [
+      "Giới thiệu mở đầu"
+    ]
+  },
+  {
+    "objectID": "index.html#cấu-trúc-nội-dung",
+    "href": "index.html#cấu-trúc-nội-dung",
+    "title": "Nhập môn Kỹ thuật Điện tử Viễn thông",
+    "section": "Cấu trúc nội dung",
+    "text": "Cấu trúc nội dung\n\n\n\nTuần\nNội dung\n\n\n\n\n1\nGiới thiệu mở đầu (trang này)\n\n\n2–3\nChương 1 — Giới thiệu chung về các lĩnh vực kỹ thuật\n\n\n4–8\nChương 2 — Hệ thống và thiết bị Điện tử Viễn thông\n\n\n9\nThực tập nhận thức tại doanh nghiệp\n\n\n10–13\nChương 3 — Công cụ và các phương pháp thiết kế kỹ thuật\n\n\n14–15\nChương 4 — Triển khai và đánh giá đồ án nhóm (Team Project)",
+    "crumbs": [
+      "Giới thiệu mở đầu"
+    ]
+  },
+  {
+    "objectID": "chapters/ch01_nganh_ky_thuat.html",
+    "href": "chapters/ch01_nganh_ky_thuat.html",
+    "title": "1  Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư",
+    "section": "",
+    "text": "1.1 Mục tiêu học tập & chuẩn đầu ra liên quan\nTheo đề cương ET2000: M1 (phân biệt các ngành kỹ thuật nói chung và vai trò của kỹ thuật trong phát triển kinh tế – xã hội), M3 (phân biệt chương trình học/nghề nghiệp), M5 (đạo đức nghề nghiệp — một phần).\nSau chương này, sinh viên có thể:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch01_nganh_ky_thuat.html#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan",
+    "href": "chapters/ch01_nganh_ky_thuat.html#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan",
+    "title": "1  Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư",
+    "section": "",
+    "text": "Phân biệt Kỹ thuật (Engineering) với Khoa học (Science), Công nghệ (Technology).\nPhân biệt 4 nhóm nhân lực trong đội ngũ công nghệ: nhà khoa học, kỹ sư, nhà công nghệ, kỹ thuật viên.\nTrình bày mô hình CDIO (Conceive – Design – Implement – Operate).\nNêu được các cam kết chính trong Bộ quy tắc đạo đức nghề nghiệp kỹ sư IEEE.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch01_nganh_ky_thuat.html#bản-đồ-khái-niệm-tổng-quan",
+    "href": "chapters/ch01_nganh_ky_thuat.html#bản-đồ-khái-niệm-tổng-quan",
+    "title": "1  Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư",
+    "section": "1.2 Bản đồ khái niệm tổng quan",
+    "text": "1.2 Bản đồ khái niệm tổng quan\n\n\n\n\n\n\nflowchart LR\n    subgraph Science[\"Khoa học\"]\n        S1[Physical System] --&gt; S2[Concrete Description&lt;br/&gt;Measure] --&gt; S3[Abstract Model&lt;br/&gt;Scientific Inquiry] --&gt; S1\n    end\n    subgraph Engineering[\"Kỹ thuật\"]\n        E1[Abstract Model&lt;br/&gt;design concept] --&gt; E2[Concrete Description&lt;br/&gt;specification] --&gt; E3[Physical System&lt;br/&gt;useful product]\n    end\n    Science -.-&gt;|\"Ask why / Build to learn\"| NhaKhoaHoc[Nhà khoa học]\n    Engineering -.-&gt;|\"Ask how / Learn to build\"| KySu[Kỹ sư]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch01_nganh_ky_thuat.html#nội-dung-cốt-lõi",
+    "href": "chapters/ch01_nganh_ky_thuat.html#nội-dung-cốt-lõi",
+    "title": "1  Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư",
+    "section": "1.3 Nội dung cốt lõi",
+    "text": "1.3 Nội dung cốt lõi\n\n1.3.1 Khái niệm Kỹ thuật (Engineering)\nTừ engineering bắt nguồn từ tiếng Latin ingenium (“thông minh”) và ingeniare (“phấn đấu, nghĩ ra”). Theo định nghĩa của ABET (Accreditation Board for Engineering and Technology): kỹ thuật là nghề nghiệp trong đó kiến thức toán học và khoa học tự nhiên (thu được qua học tập, kinh nghiệm, thực hành) được áp dụng cùng sự phán đoán để phát triển các phương pháp sử dụng kinh tế vật liệu và lực lượng tự nhiên vì lợi ích con người.\nKhoa học và kỹ thuật đi theo hai hướng ngược nhau: khoa học đo đạc một hệ thống vật lý để xây dựng mô hình lý thuyết trừu tượng; kỹ thuật bắt đầu từ một mô hình/ý tưởng trừu tượng để thiết kế ra một sản phẩm vật lý hữu ích.\n\n\n1.3.2 Bốn nhóm nhân lực trong đội ngũ công nghệ\n\n\n\n\n\n\n\n\nVai trò\nCâu hỏi đặc trưng\nĐặc điểm\n\n\n\n\nNhà khoa học (Scientist)\n“Tại sao?” (Ask why)\nKhám phá quy luật tự nhiên, “Build to learn”\n\n\nKỹ sư (Engineer)\n“Làm thế nào?” (Ask how)\nBiến đổi lực tự nhiên thành sản phẩm, “Learn to build”\n\n\nNhà công nghệ (Technologist)\n—\nỨng dụng trực tiếp nguyên lý kỹ thuật đã thiết lập, ít lý thuyết hơn\n\n\nKỹ thuật viên (Technician)\n—\nKỹ năng thực hành thành thạo trong một lĩnh vực cụ thể\n\n\n\n\n\n1.3.3 Các ngành kỹ thuật và tính liên ngành\nBốn ngành kỹ thuật chính: Kỹ thuật Hóa học, Kỹ thuật Xây dựng, Kỹ thuật Điện – Điện tử, Kỹ thuật Cơ khí. Nhiều ngành khác mang tính liên ngành: kỹ thuật y sinh, ô tô, máy tính, hàng không vũ trụ, đo lường điều khiển, phần mềm… Trong kỷ nguyên số, ranh giới giữa các ngành ngày càng mờ nhạt — dữ liệu và tri thức kết nối liên tục giữa Điện, Tự động hoá, CNTT, Điện tử Viễn thông, Cơ điện tử và Cơ khí.\n\n\n1.3.4 Mô hình CDIO\n\nConceive (Hình thành ý tưởng): hiểu vấn đề cần giải quyết.\nDesign (Thiết kế): đưa ra giải pháp kỹ thuật.\nImplement (Thực hiện): chế tạo, kết nối, lập trình, kiểm nghiệm giải pháp.\nOperate (Vận hành): thử nghiệm, đo đạc, vận hành, cải tiến.\n\n\n\n1.3.5 Đạo đức nghề nghiệp kỹ sư (IEEE Code of Ethics)\nTheo (IEEE, không ngày), mười cam kết cốt lõi: (1) đảm bảo an toàn/sức khoẻ/phúc lợi công chúng; (2) tránh xung đột lợi ích; (3) trung thực, thực tế trong ước tính kỹ thuật; (4) từ chối hối lộ; (5) cải thiện hiểu biết công nghệ; (6) duy trì năng lực kỹ thuật cá nhân; (7) chấp nhận/đưa ra phê bình xây dựng; (8) đối xử công bằng, không phân biệt; (9) tránh làm tổn hại người khác; (10) hỗ trợ đồng nghiệp phát triển nghề nghiệp.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch01_nganh_ky_thuat.html#case-study-tình-huống-nghề-nghiệp-thực-tế",
+    "href": "chapters/ch01_nganh_ky_thuat.html#case-study-tình-huống-nghề-nghiệp-thực-tế",
+    "title": "1  Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư",
+    "section": "1.4 Case study / tình huống nghề nghiệp thực tế",
+    "text": "1.4 Case study / tình huống nghề nghiệp thực tế\nKhảo sát nhận thức về kỹ sư (Hideo Ohashi, 2007): khảo sát 1.048 học sinh 12–17 tuổi tại Nhật Bản; 644 học sinh nêu được ít nhất 1 tên kỹ sư trong 1.188 lượt bình chọn — Thomas Edison (185 lượt), Albert Einstein (128 lượt, thực chất là nhà khoa học), Wright Brothers (80 lượt). Minh hoạ việc công chúng thường nhầm lẫn giữa “nhà khoa học” và “kỹ sư”.\nThống kê phổ việc làm sinh viên ĐTVT tốt nghiệp (SEEE 2024, ĐH Bách khoa Hà Nội): Kỹ sư thiết kế/phát triển (68%), Kỹ sư lắp đặt/vận hành/bảo trì (18%), Quản lý sản xuất/sản phẩm (6%), Kinh doanh/bán hàng (4%), Tư vấn/quản lý dự án (1%), Giảng dạy/nghiên cứu (1%). Mức lương trung bình kỹ sư mới tốt nghiệp: 8–20 triệu VNĐ/tháng; kỹ sư R&D: 20–40 triệu VNĐ/tháng.\n\n\n\n\n\n\nNotePitfall\n\n\n\nMột sản phẩm thành công về mặt kỹ thuật là chưa đủ — còn phải đáp ứng các ràng buộc kinh tế, xã hội, môi trường, pháp lý, độ an toàn và giá thành thị trường. Không thể chỉ đánh giá yếu tố kỹ thuật mà bỏ qua tính khả thi thương mại và đạo đức nghề nghiệp.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch01_nganh_ky_thuat.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "href": "chapters/ch01_nganh_ky_thuat.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "title": "1  Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư",
+    "section": "1.5 Câu hỏi thảo luận nhóm & tài liệu tham khảo",
+    "text": "1.5 Câu hỏi thảo luận nhóm & tài liệu tham khảo\n\n1.5.1 Câu hỏi thảo luận\n\nPhân biệt vai trò của “nhà khoa học” và “kỹ sư” bằng một ví dụ cụ thể trong lĩnh vực Điện tử Viễn thông.\nÁp dụng mô hình CDIO cho ý tưởng đồ án nhóm của bạn — mô tả ngắn từng bước.\nNêu một tình huống vi phạm đạo đức nghề nghiệp kỹ sư (giả định) và chỉ ra điều khoản IEEE Code of Ethics liên quan.\nVì sao công chúng (như trong khảo sát Hideo Ohashi) thường nhầm nhà khoa học với kỹ sư? Điều này có ảnh hưởng gì đến nhận thức nghề nghiệp của sinh viên mới vào ngành?\nTheo thống kê phổ việc làm SEEE 2024, nếu bạn muốn theo hướng R&D, cần chuẩn bị gì khác so với hướng vận hành/bảo trì?\n\n\n\n1.5.2 Nguồn tham khảo của chương\n\nBộ quy tắc đạo đức nghề nghiệp kỹ sư IEEE (IEEE, không ngày).\nĐề cương chính thức và slide bài giảng học phần ET2000, Trường Điện – Điện tử (SEEE), Đại học Bách khoa Hà Nội.\nXem thêm Phụ lục A (Bảng thuật ngữ) và Danh mục tài liệu tham khảo cuối sách.\n\n\n\n\n\nIEEE. không ngày. IEEE Code of Ethics. IEEE.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch02_dtvt.html",
+    "href": "chapters/ch02_dtvt.html",
+    "title": "2  Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông",
+    "section": "",
+    "text": "2.1 Mục tiêu học tập & chuẩn đầu ra liên quan\nTheo đề cương ET2000: M2 (lịch sử phát triển và vai trò ngành ĐTVT), M2.1/M2.2/M2.3 (tổng quan ngành, lĩnh vực Điện tử, lĩnh vực Viễn thông), M3 (chương trình đào tạo).\nSau chương này, sinh viên có thể:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch02_dtvt.html#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan",
+    "href": "chapters/ch02_dtvt.html#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan",
+    "title": "2  Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông",
+    "section": "",
+    "text": "Trình bày vai trò của ĐTVT trong Cách mạng Công nghiệp 4.0 và chuyển đổi số.\nPhân biệt linh kiện điện tử thụ động và tích cực.\nMô tả mô hình phân lớp hệ thống AIoT (5 lớp).\nNêu định luật Ohm, định luật Moore và ý nghĩa thực tiễn.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch02_dtvt.html#bản-đồ-khái-niệm-tổng-quan",
+    "href": "chapters/ch02_dtvt.html#bản-đồ-khái-niệm-tổng-quan",
+    "title": "2  Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông",
+    "section": "2.2 Bản đồ khái niệm tổng quan",
+    "text": "2.2 Bản đồ khái niệm tổng quan\n\n\n\n\n\n\nflowchart TD\n    L1[Lớp 1: Thiết bị vật lý&lt;br/&gt;Cảm biến & Cơ cấu chấp hành] --&gt; L2[Lớp 2: Phần cứng&lt;br/&gt;Mạch số/tương tự, RF, Bus I2C/SPI/UART]\n    L2 --&gt; L3[Lớp 3: Phần mềm hệ thống&lt;br/&gt;Driver, Firmware, RTOS]\n    L3 --&gt; L4[Lớp 4: Mạng & Giao thức&lt;br/&gt;TCP/IP, Wi-Fi, 4G/5G, MQTT]\n    L4 --&gt; L5[Lớp 5: Ứng dụng & AI/ML&lt;br/&gt;Phân tích dữ liệu]",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch02_dtvt.html#nội-dung-cốt-lõi",
+    "href": "chapters/ch02_dtvt.html#nội-dung-cốt-lõi",
+    "title": "2  Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông",
+    "section": "2.3 Nội dung cốt lõi",
+    "text": "2.3 Nội dung cốt lõi\n\n2.3.1 Vai trò của ngành Điện tử – Viễn thông\nĐTVT giữ vai trò trung tâm, là hạ tầng kết nối của Cách mạng Công nghiệp 4.0, và là cầu nối liên ngành giữa Điện, Tự động hoá, CNTT, Kỹ thuật máy tính, Cơ điện tử, Cơ khí. Các mảng mũi nhọn: mạng di động 5G/6G, vi mạch bán dẫn (IC), hệ thống nhúng (chiếm khoảng 90% phần mềm thực tế), trí tuệ nhân tạo (AI/ML), thiết bị y sinh/hàng không vũ trụ.\n\n\n2.3.2 Đại lượng điện cơ bản và linh kiện điện tử\nNội dung mục này bám sát (Fleddermann và Bradshaw 2003), tài liệu tham khảo bắt buộc của học phần cho phần đại lượng điện cơ bản và linh kiện.\n\nĐiện áp \\(v\\) (V), dòng điện \\(i\\) (A), công suất \\(p = v \\cdot i\\) (W), năng lượng \\(w = \\int p\\,dt\\) (J).\nĐịnh luật Ohm: \\(v = i \\cdot R\\).\nLinh kiện thụ động (không tự khuếch đại, không cần nguồn phụ trợ): điện trở, tụ điện, cuộn cảm.\nLinh kiện tích cực (có khuếch đại, cần nguồn nuôi): diode, transistor (BJT, MOSFET), vi mạch IC (ví dụ Op-Amp UA741, Timer 555, cổng logic TTL 7400 / CMOS 4000, vi xử lý Intel).\nĐại số Boolean: NOT (\\(Y=\\bar X\\)), AND (\\(Y = X \\cdot Y\\)), OR (\\(Y = X + Y\\)), cùng các cổng kết hợp NAND, NOR, XOR.\nĐịnh luật Moore: mật độ tích hợp transistor trên vi mạch tăng gấp đôi sau mỗi 18–24 tháng.\n\n\n\n2.3.3 Máy tính, mạng và hệ sinh thái IoT\nMột máy tính gồm 4 khối chức năng: Nhận vào → Lưu trữ → Xử lý → Đưa ra. Phần mềm hệ thống gồm hệ điều hành, firmware/BSP, device driver. Mạng viễn thông truyền thông tin qua cáp đồng, cáp quang, sóng vô tuyến (Wi-Fi, Bluetooth, 3G/4G/5G, vệ tinh).\nIoT (Internet of Things): hệ thống thiết bị tính toán/cơ khí được số hoá, kết nối trong không gian thực–ảo, có định danh riêng, tự động trao đổi dữ liệu máy-với-máy (M2M) và phân tích dữ liệu thời gian thực.\nMô hình phân lớp hệ thống AIoT (5 lớp): (1) Thiết bị vật lý/cảm biến & cơ cấu chấp hành; (2) Phần cứng (mạch số/tương tự, bộ xử lý, RF/Anten, bus I2C/SPI/UART); (3) Phần mềm hệ thống (driver, firmware, RTOS); (4) Mạng & giao thức truyền thông (TCP/IP, Wi-Fi, 4G/5G, MQTT, HTTP); (5) Phần mềm ứng dụng & phân tích AI/ML. Phần lý thuyết AI/ML nền tảng ở lớp 5 được trình bày đầy đủ hơn trong giáo trình tổng quan (Russell và Norvig, không ngày) — xem thêm Phụ lục B.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch02_dtvt.html#case-study-tình-huống-nghề-nghiệp-thực-tế",
+    "href": "chapters/ch02_dtvt.html#case-study-tình-huống-nghề-nghiệp-thực-tế",
+    "title": "2  Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông",
+    "section": "2.4 Case study / tình huống nghề nghiệp thực tế",
+    "text": "2.4 Case study / tình huống nghề nghiệp thực tế\n\nIC định thời NE555N: 8 chân (GND, TRIG, OUT, RESET, CONT, THRES, DISCH, VCC) — một trong những IC tương tự phổ biến nhất trong thực hành mạch điện tử.\nIC khuếch đại thuật toán Op-Amp UA741 (LM741) và cổng logic TTL 7400 / CMOS 4000: các linh kiện tích cực nền tảng dùng trong giảng dạy mạch điện tử cơ bản.\nThị trường ứng dụng IC (thống kê IC Insights, 2017): Cellphones (89,7 tỷ USD), Standard PCs (69,0 tỷ USD), Automotive (28,0 tỷ USD), Internet of Things (20,9 tỷ USD), Servers (16,7 tỷ USD), Digital TVs (13,8 tỷ USD), Tablets (11,6 tỷ USD), Medical (5,9 tỷ USD) — cho thấy quy mô và vị trí của IoT trong tổng thị trường bán dẫn.\n\n\n\n\n\n\n\nNotePitfall\n\n\n\nNhiễu điện từ (EMI) và tĩnh điện (EOS/ESD — Electrostatic Discharge/Electrical Overstress) có thể làm hỏng linh kiện vi mạch bán dẫn nếu không có biện pháp phòng tránh phù hợp khi thao tác với bo mạch. Sụt áp nguồn cung cấp có thể xảy ra khi vi điều khiển kích hoạt đồng thời các cơ cấu chấp hành công suất lớn.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch02_dtvt.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "href": "chapters/ch02_dtvt.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "title": "2  Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông",
+    "section": "2.5 Câu hỏi thảo luận nhóm & tài liệu tham khảo",
+    "text": "2.5 Câu hỏi thảo luận nhóm & tài liệu tham khảo\n\n2.5.1 Câu hỏi thảo luận\n\nVì sao hệ thống nhúng được coi là chiếm khoảng 90% phần mềm thực tế? Nêu ví dụ thiết bị xung quanh bạn có chứa hệ thống nhúng.\nPhân biệt linh kiện thụ động và tích cực bằng ví dụ cụ thể trong một mạch điện đơn giản.\nVẽ sơ đồ 5 lớp AIoT cho một thiết bị IoT bạn đã biết (ví dụ: camera an ninh thông minh).\nGiải thích ý nghĩa thực tiễn của định luật Moore đối với tốc độ phát triển của ngành ĐTVT.\nVì sao cần chú ý đến EOS/ESD khi thao tác với vi mạch bán dẫn trong phòng thực hành?\n\n\n\n2.5.2 Nguồn tham khảo của chương\n\nCharles B. Fleddermann, Martin D. Bradshaw, Introduction to Electrical and Computer Engineering (Fleddermann và Bradshaw 2003).\nStuart Russell, Peter Norvig, Artificial Intelligence: A Modern Approach (Russell và Norvig, không ngày) (nền tảng AI/ML lớp 5 của mô hình AIoT).\nĐề cương chính thức và slide bài giảng học phần ET2000, Trường Điện – Điện tử (SEEE), Đại học Bách khoa Hà Nội.\nXem thêm Phụ lục A (Bảng thuật ngữ) và Phụ lục B (Xu hướng công nghệ AI & Y sinh).\n\n\n\n\n\nFleddermann, Charles B., và Martin D. Bradshaw. 2003. Introduction to Electrical and Computer Engineering. Prentice Hall.\n\n\nRussell, Stuart, và Peter Norvig. không ngày. Artificial Intelligence: A Modern Approach. Pearson.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span>"
+    ]
+  },
+  {
+    "objectID": "activities/thuc-tap-nhan-thuc.html",
+    "href": "activities/thuc-tap-nhan-thuc.html",
+    "title": "Thực tập nhận thức tại doanh nghiệp (Tuần 9)",
+    "section": "",
+    "text": "Mục đích\nChuẩn đầu ra liên quan: M6 (trải nghiệm thực tế về doanh nghiệp trong lĩnh vực Điện tử – Viễn thông).\nKhông tổ chức giảng dạy lý thuyết trên lớp trong tuần này — hoạt động thực địa 100%.",
+    "crumbs": [
+      "Thực tập nhận thức tại doanh nghiệp (Tuần 9)"
+    ]
+  },
+  {
+    "objectID": "activities/thuc-tap-nhan-thuc.html#nội-dung-hoạt-động",
+    "href": "activities/thuc-tap-nhan-thuc.html#nội-dung-hoạt-động",
+    "title": "Thực tập nhận thức tại doanh nghiệp (Tuần 9)",
+    "section": "Nội dung hoạt động",
+    "text": "Nội dung hoạt động\n\nTham quan, tìm hiểu môi trường thực tế tại một doanh nghiệp ngành Điện tử – Viễn thông.\nGiảng viên/Viện liên hệ doanh nghiệp, tổ chức dẫn lớp đi thực tập nhận thức.\nSinh viên viết báo cáo thu hoạch thực tập nhận thức.\n\n\n\n\n\n\n\nImportantKhoảng trống nguồn — KHÔNG CÓ TRONG NGUỒN\n\n\n\nChưa có trong nguyên liệu hiện có: mẫu báo cáo thu hoạch cụ thể, tiêu chí chấm điểm phần thực tập nhận thức (tỷ trọng trong A1 chỉ được nêu chung là “ảnh hưởng điểm chuyên cần/A1”, chưa có số % riêng), và danh sách doanh nghiệp cụ thể theo từng kỳ. Cần giảng viên/chủ học phần bổ sung trước khi dùng mục này làm hướng dẫn chính thức cho sinh viên.",
+    "crumbs": [
+      "Thực tập nhận thức tại doanh nghiệp (Tuần 9)"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "",
+    "text": "3.1 Mục tiêu học tập & chuẩn đầu ra liên quan\nTheo đề cương ET2000, chương này phủ các chuẩn đầu ra:\nSau chương này, sinh viên có thể:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "",
+    "text": "M4 / M4.1: Hiểu và áp dụng các công cụ và phương pháp thiết kế kỹ thuật.\nM4.2: Thực hiện đúng quy trình các bước thiết kế kỹ thuật.\nM5: Vận dụng kỹ năng giải quyết vấn đề trong kỹ thuật.\n\n\n\nÁp dụng công cụ 5W2H, SMART để phân tích và đặt mục tiêu cho một bài toán kỹ thuật cụ thể.\nDùng 5 Whys và sơ đồ xương cá (Fishbone) để truy tìm nguyên nhân gốc rễ của một lỗi kỹ thuật.\nTrình bày đúng trình tự 9 bước của Quy trình Thiết kế Kỹ thuật (Engineering Design Process – EDP).\nPhân biệt các giai đoạn xác nhận phần cứng công nghiệp PoC → EVT → DVT → PVT → MP.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html#bản-đồ-khái-niệm-tổng-quan",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html#bản-đồ-khái-niệm-tổng-quan",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "3.2 Bản đồ khái niệm tổng quan",
+    "text": "3.2 Bản đồ khái niệm tổng quan\n\n\n\n\n\n\nflowchart TD\n    A[Phân tích vấn đề&lt;br/&gt;5W2H] --&gt; B[Đặt mục tiêu&lt;br/&gt;SMART]\n    B --&gt; C[Tìm nguyên nhân gốc rễ&lt;br/&gt;5 Whys / Fishbone / Pareto]\n    C --&gt; D[Quy trình thiết kế kỹ thuật&lt;br/&gt;EDP 9 bước]\n    D --&gt; E[Xác nhận phần cứng&lt;br/&gt;PoC → EVT → DVT → PVT → MP]\n    E --&gt; F[Tổng kết & chia sẻ&lt;br/&gt;bài học kinh nghiệm]",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html#nội-dung-cốt-lõi",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html#nội-dung-cốt-lõi",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "3.3 Nội dung cốt lõi",
+    "text": "3.3 Nội dung cốt lõi\n\n3.3.1 Chiến lược và mô hình giải quyết vấn đề\nNội dung mục này có thể đối chiếu thêm với phương pháp luận giải quyết vấn đề trong (Nam, không ngày) (lưu ý: sách trình bày theo 4 bước, trong khi nguyên liệu tổng hợp của chương này có quy trình 7 bước chi tiết hơn — chưa xác nhận hai khung này có tương đương 1-1 hay không).\nTrước khi thiết kế một giải pháp kỹ thuật, cần phân tích đúng bài toán. Công cụ 5W2H (Who, What, Where, When, Why, How, How much/many) giúp mô tả đầy đủ vấn đề trước khi đi tìm giải pháp.\nMục tiêu sau khi phân tích cần đạt nguyên tắc SMART: Specific (Cụ thể) – Measurable (Đo lường được) – Attainable (Có thể đạt được) – Relevant/Realistic (Thực tế, phù hợp) – Time-bound (Có mốc thời hạn).\nMột số mô hình quản lý/giải quyết vấn đề khác được dùng trong thực hành kỹ thuật:\n\nGROW: Goal (Mục tiêu) → Reality (Thực tế) → Options (Phương án) → Will (Hành động).\nPDCA (Deming cycle): Plan → Do → Check → Act — lặp lại liên tục để cải tiến.\nOODA Loop: Observe → Orient → Decide → Act — vòng lặp quan sát–quyết định, có thể biểu diễn: \\[\\text{Observe} \\xrightarrow{\\text{Orient}} \\text{Decide (Hypothesis)} \\xrightarrow{\\text{Act (Test)}} \\text{Observe (Feedback Loop)}\\]\nBáo cáo A3 (chuẩn Toyota): tóm tắt toàn bộ một bài toán kỹ thuật trên một trang giấy A3, gồm 8 bước: mô tả vấn đề (5W2H) → phân tách vấn đề → đặt mục tiêu (SMART) → phân tích nguyên nhân gốc rễ → đề xuất biện pháp → triển khai biện pháp → theo dõi kết quả → chuẩn hoá và chia sẻ thành công.\nTRIZ: lý thuyết giải quyết bài toán sáng chế, tổng hợp các nguyên tắc giải pháp kỹ thuật đã được dùng lặp lại trong nhiều ngành.\n8D (8 Disciplines): quy trình xử lý sự cố chất lượng công nghiệp theo 8 bước kỷ luật.\n\n\n\n3.3.2 Công cụ chẩn đoán nguyên nhân gốc rễ\nKhi đã xác định vấn đề, cần tìm đúng nguyên nhân gốc rễ trước khi đưa ra giải pháp:\n\n5 Whys: đặt câu hỏi “Tại sao” liên tiếp 5 lần để đi từ triệu chứng bề mặt tới nguyên nhân quản lý/hệ thống thật sự.\nSơ đồ xương cá (Fishbone / Ishikawa, mô hình 4M–6M): phân loại nguyên nhân theo nhóm Machine (máy móc), Material (vật liệu), Method (phương pháp), Manpower/Man (con người), Measurement (đo lường), Environment/Milieu (môi trường).\nĐồ thị Pareto (nguyên lý 80/20): 80% hậu quả/lỗi thường xuất phát từ 20% nguyên nhân cốt lõi — dùng để ưu tiên xử lý đúng nguyên nhân quan trọng nhất trước.\nBiểu đồ phân tán (Scatter Plot): đánh giá mối quan hệ phụ thuộc giữa hai biến số kỹ thuật.\nLưu đồ thuật toán (Flowchart): mô hình hoá trình tự xử lý của một quy trình/thuật toán.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html#công-cụ-và-quy-trình-thực-hành",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html#công-cụ-và-quy-trình-thực-hành",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "3.4 Công cụ và quy trình thực hành",
+    "text": "3.4 Công cụ và quy trình thực hành\n\n3.4.1 Quy trình Thiết kế Kỹ thuật — 9 bước (Engineering Design Process)\n\nXác định nhu cầu sản phẩm (Identify Need).\nTạo chỉ tiêu kỹ thuật (Engineering Specifications).\nLập kế hoạch (Develop Plan).\nThực hiện sơ đồ khối (Block Diagram Design).\nThiết kế chi tiết từng khối (Detailed Design).\nLựa chọn phương án tối ưu (Select Best Alternative).\nKiểm thử và đánh giá (Test & Evaluate).\nChế tạo/sản xuất bản mẫu (Manufacture Prototype).\nĐưa sản phẩm ra thị trường & tổng kết (Deliver & Review).\n\n\n\n3.4.2 Quy trình xác nhận phần cứng công nghiệp (Hardware Validation Pipeline)\n\\[\\text{PoC} \\rightarrow \\text{Looks-like / Works-like} \\rightarrow \\text{EVT} \\rightarrow \\text{DVT} \\rightarrow \\text{PVT} \\rightarrow \\text{Mass Production (MP)}\\]\n\nPoC (Proof of Concept): thử nghiệm nhanh tính khả thi trên bo cắm breadboard/bo phát triển.\nLooks-like / Works-like prototype: mô hình 3D/kiểu dáng công nghiệp (looks-like) và bản mẫu chạy đúng chức năng cốt lõi (works-like), kèm tài liệu yêu cầu kỹ thuật (PRD), schematic, PCB layout.\nEVT (Engineering Validation Test): xác nhận chức năng mạch, bring-up firmware.\nDVT (Design Validation Test): xác nhận thiết kế vỏ hộp, độ bền cơ học, thử nghiệm môi trường, đo đạc an toàn điện theo chuẩn CE/FCC.\nPVT (Production Validation Test): sản xuất thử nghiệm trên dây chuyền nhà máy, chuẩn hoá quy trình vận hành (SOP) và phần mềm kiểm tra nhà máy.\nMP (Mass Production): sản xuất hàng loạt quy mô lớn.\n\nPitfall cần tránh: bỏ qua các bước xác nhận EVT/DVT/PVT — đưa sản phẩm ra thị trường khi chưa qua xác nhận an toàn điện (CE/FCC), độ bền cơ học hoặc điều kiện môi trường có thể dẫn tới hư hỏng hàng loạt và phải thu hồi sản phẩm.\n\n\n\n\n\n\nWarningKhoảng trống nguồn\n\n\n\nĐề cương chính thức của học phần có đề cập nội dung “an toàn điện cá nhân (chống tĩnh điện EOS/ESD), thiết bị đo cơ bản (đồng hồ vạn năng, ô-xi-lô, nguồn DC, máy phát hàm)” là một phần của Chương 3, nhưng nội dung này chưa có trong tài liệu đã tổng hợp. Cần giảng viên/chủ học phần bổ sung nguồn (ví dụ slide bài giảng gốc về an toàn điện và thiết bị đo) trước khi hoàn thiện mục này — không tự suy diễn nội dung.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html#case-study-tình-huống-nghề-nghiệp-thực-tế",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html#case-study-tình-huống-nghề-nghiệp-thực-tế",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "3.5 Case study / tình huống nghề nghiệp thực tế",
+    "text": "3.5 Case study / tình huống nghề nghiệp thực tế\nBáo cáo A3 “Luggage rack extrusion quality defects”: một bài toán lỗi chất lượng nhôm định hình khung hành lý gây thiệt hại khoảng 10.000 USD/ngày cho một khách hàng lớn — minh hoạ cách dùng báo cáo A3 để mô tả, phân tích nguyên nhân và đề xuất biện pháp khắc phục trên một trang giấy.\nQuy trình Nghiên cứu & Phát triển (NCPT) sản phẩm Điện tử Viễn thông: phân định rõ vai trò trong một dự án phần cứng/phần mềm thực tế:\n\n\n\n\n\n\n\nVai trò\nTrách nhiệm chính\n\n\n\n\nCEO / CTO / Product Director\nÝ tưởng sản phẩm, yêu cầu cấp cao (HLR)\n\n\nFunctional Manager / Architect\nSơ đồ khối, thuật toán tổng thể\n\n\nKỹ sư phần mềm\nCấu trúc dữ liệu, lập trình (C/C++/Python/Java)\n\n\nKỹ sư phần cứng\nSơ đồ nguyên lý, layout (Altium/OrCAD)\n\n\nKỹ sư QC\nKiểm thử, xác nhận (validate)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch03_cong_cu_thiet_ke.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "href": "chapters/ch03_cong_cu_thiet_ke.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "title": "3  Công cụ và các Phương pháp Thiết kế Kỹ thuật",
+    "section": "3.6 Câu hỏi thảo luận nhóm & tài liệu tham khảo",
+    "text": "3.6 Câu hỏi thảo luận nhóm & tài liệu tham khảo\n\n3.6.1 Câu hỏi thảo luận\n\nÁp dụng 5W2H để mô tả một vấn đề kỹ thuật mà nhóm bạn gặp trong đồ án môn học.\nViết lại mục tiêu của đồ án nhóm theo đúng nguyên tắc SMART.\nDùng 5 Whys để truy nguyên nhân gốc rễ cho một lỗi kỹ thuật cụ thể (ví dụ: mạch không hoạt động đúng).\nVẽ sơ đồ xương cá (Fishbone) cho một sự cố trong đồ án, phân loại theo 4M/6M.\nGiải thích vì sao bước DVT không thể bỏ qua trước khi đưa sản phẩm ra thị trường.\nSo sánh PDCA và OODA Loop — hai mô hình này phù hợp với loại tình huống nào hơn?\nTrình bày đúng trình tự 9 bước EDP cho một sản phẩm IoT đơn giản do nhóm tự chọn.\nTheo nguyên lý Pareto, nếu một hệ thống có 10 lỗi được ghi nhận, nên ưu tiên xử lý lỗi nào trước? Vì sao?\nNêu một ví dụ (ngoài case study đã nêu) mà việc bỏ qua bước xác nhận an toàn điện có thể gây hậu quả.\nGiải thích vai trò của báo cáo A3 trong việc trình bày một bài toán kỹ thuật cho người quản lý không có thời gian đọc báo cáo dài.\n\n\n\n3.6.2 Nguồn tham khảo của chương\n\nNguyễn Vũ Phương Nam, Bốn bước giải quyết vấn đề (Nam, không ngày) (đối chiếu phương pháp luận, xem lưu ý ở mục trên).\nĐề cương chính thức và slide bài giảng học phần ET2000, Trường Điện – Điện tử (SEEE), Đại học Bách khoa Hà Nội.\nXem thêm Phụ lục A (Bảng thuật ngữ).\n\n\n\n\n\nNam, Nguyễn Vũ Phương. không ngày. Bốn bước giải quyết vấn đề: Giải thích – Quyết định – Vấn đáp – Đề xuất. Nhà xuất bản Dân Trí.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Công cụ và các Phương pháp Thiết kế Kỹ thuật</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch04_team_project.html",
+    "href": "chapters/ch04_team_project.html",
+    "title": "4  Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project",
+    "section": "",
+    "text": "4.1 Mục tiêu học tập & chuẩn đầu ra liên quan\nMôn học không có thi viết cuối kỳ; đánh giá 100% qua điểm quá trình (A1, 40%) và đồ án nhóm cuối kỳ (A2, 60%) — đồ án đánh giá tổng hợp toàn bộ chuẩn đầu ra M1 đến M6, áp dụng các công cụ/quy trình đã học ở Chương 1–3.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch04_team_project.html#bản-đồ-khái-niệm-tổng-quan",
+    "href": "chapters/ch04_team_project.html#bản-đồ-khái-niệm-tổng-quan",
+    "title": "4  Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project",
+    "section": "4.2 Bản đồ khái niệm tổng quan",
+    "text": "4.2 Bản đồ khái niệm tổng quan\n\n\n\n\n\n\nflowchart LR\n    Sensors[\"Cảm biến&lt;br/&gt;DHT11 / MQ-135 / PIR / HC-SR04\"] --&gt;|đọc dữ liệu| MCU[\"Vi điều khiển&lt;br/&gt;Arduino Uno / ESP32\"]\n    MCU --&gt;|I2C| LCD[\"Màn hình LCD 16x2 / OLED\"]\n    MCU --&gt;|Wi-Fi| Cloud[\"Blynk Cloud / ThingSpeak\"]\n    Cloud --&gt; App[\"Smartphone App\"]\n    MCU --&gt;|điều khiển| Actuators[\"Cơ cấu chấp hành&lt;br/&gt;LED / Relay / Buzzer / Servo\"]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch04_team_project.html#nội-dung-cốt-lõi",
+    "href": "chapters/ch04_team_project.html#nội-dung-cốt-lõi",
+    "title": "4  Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project",
+    "section": "4.3 Nội dung cốt lõi",
+    "text": "4.3 Nội dung cốt lõi\n\n4.3.1 Tổ chức nhóm và phân công vai trò (5 sinh viên/nhóm)\n\n\n\n\n\n\n\nVai trò\nTrách nhiệm\n\n\n\n\nProject Manager\nQuản lý tiến độ, báo cáo A3, WBS (Work Breakdown Structure)\n\n\nHardware Engineer\nSơ đồ nguyên lý, cắm mạch breadboard/PCB, thi công vỏ hộp\n\n\nEmbedded Software Engineer\nViết code mBlock/Arduino IDE, sơ đồ khối thuật toán\n\n\nCloud & UI/UX Engineer\nThiết kế Dashboard (Blynk/ThingSpeak), cấu hình Wi-Fi/MQTT\n\n\nQA & Documentation Engineer\nThực nghiệm đo đạc (30–50 lần), viết báo cáo Word, làm slide thuyết trình\n\n\n\n\n\n4.3.2 Công cụ phần cứng/phần mềm thực hành\n\nPhần mềm: Microsoft Teams (quản lý công việc), Scratch/mBlock (lập trình block-based), Microsoft Word/PowerPoint (báo cáo/slide).\nPhần cứng: Arduino Uno R3, ESP32 (Wi-Fi/Bluetooth tích hợp).\nCảm biến: DHT11/DHT22 (nhiệt độ/độ ẩm), LDR (ánh sáng), PIR (chuyển động), HC-SR04 (siêu âm/khoảng cách), MQ-135/MQ-2 (khí gas/chất lượng không khí).\nCơ cấu chấp hành & hiển thị: LED (PWM), Relay (220V), Buzzer, Servo, LCD 16x2 I2C/OLED.\nCloud dashboard: Blynk App hoặc ThingSpeak qua Wi-Fi (ESP32).\n\n\n\n4.3.3 Nguyên lý kỹ thuật dùng trong đồ án\n\nChuyển đổi tín hiệu tương tự/số (ADC): điện áp analog từ cảm biến (0–3,3V hoặc 0–5V) được chuyển sang giá trị số 10-bit (0–1023, Arduino) hoặc 12-bit (0–4095, ESP32).\nGiao thức I2C: 2 đường dây SDA (dữ liệu) và SCL (xung nhịp) để giao tiếp vi điều khiển với màn hình LCD/OLED.\nThuật toán vòng lặp quét (polling loop): khởi tạo I/O/LCD/Wi-Fi → đọc định kỳ cảm biến (ví dụ mỗi 2000ms) → kiểm tra ngưỡng an toàn (ví dụ \\(T &gt; 35^\\circ C\\) hoặc \\(Gas &gt; 400\\text{ppm}\\)) → kích hoạt/tắt cơ cấu chấp hành tương ứng → cập nhật LCD và đẩy dữ liệu lên cloud.\n\n\n\n4.3.4 Lộ trình triển khai đồ án (6 tuần)\n\nTuần 1: Xác định bài toán & viết báo cáo A3.\nTuần 2: Thiết kế sơ đồ khối & chọn linh kiện.\nTuần 3: Mạch PoC (breadboard) & lập trình mBlock/Arduino.\nTuần 4: Tích hợp vỏ hộp & Dashboard Blynk/ThingSpeak.\nTuần 5: Thực nghiệm đo đạc 30–50 lần, tính sai số.\nTuần 6: Hoàn thiện báo cáo Word, slide 10–12 trang, thuyết trình demo 10 phút trước lớp.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch04_team_project.html#case-study-danh-mục-đề-tài-mẫu",
+    "href": "chapters/ch04_team_project.html#case-study-danh-mục-đề-tài-mẫu",
+    "title": "4  Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project",
+    "section": "4.4 Case study / Danh mục đề tài mẫu",
+    "text": "4.4 Case study / Danh mục đề tài mẫu\nSáu đề tài IoT định hướng cho đồ án nhóm:\n\nTrạm quan trắc môi trường thông minh (ESP32, DHT11, MQ-135, LDR, LCD, Relay, Buzzer, Blynk).\nHệ thống cảnh báo và phòng chống cháy nổ tự động (cảm biến ngọn lửa, MQ-2, Buzzer, Servo mở cửa).\nHệ thống quản lý bãi đỗ xe thông minh (HC-SR04, PIR, Servo barie, LCD).\nThùng rác thông minh không tiếp xúc (HC-SR04, Servo).\nHệ thống theo dõi sức khoẻ cá nhân IoMT (cảm biến nhịp tim/SpO2, nhiệt độ cơ thể, Blynk).\nHệ thống nhà thông minh tự động (LDR, Relay, Wi-Fi Blynk).\n\nTiêu chí đánh giá đồ án (chiếm 70% điểm A2 theo slide bài giảng): tính sáng tạo & chuẩn kỹ thuật (20%), mô hình sản phẩm & demo trực tiếp (30%), chất lượng báo cáo kỹ thuật Word (10%). (Phần còn lại của điểm A2 — thuyết trình/vấn đáp — cần đối chiếu lại tổng 100% với đề cương chính thức trước khi dùng làm rubric chính thức.)\n\n\n\n\n\n\nWarningPitfall quan trọng — lỗi thường gặp khi làm đồ án\n\n\n\nKhi ESP32 khởi tạo kết nối Wi-Fi hoặc kích hoạt đồng thời Relay 5V và Buzzer, dòng tiêu thụ tăng đột ngột có thể gây sụt áp vĩnh viễn, khiến vi điều khiển bị reset liên tục. Cách khắc phục: dùng nguồn DC cấp riêng cho khối cơ cấu chấp hành, không cấp chung từ cổng USB máy tính.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/ch04_team_project.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "href": "chapters/ch04_team_project.html#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo",
+    "title": "4  Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project",
+    "section": "4.5 Câu hỏi thảo luận nhóm & tài liệu tham khảo",
+    "text": "4.5 Câu hỏi thảo luận nhóm & tài liệu tham khảo\n\n4.5.1 Câu hỏi thảo luận\n\nChọn 1 trong 6 đề tài mẫu (hoặc đề tài tự chọn) và phân công 5 vai trò cho nhóm của bạn.\nVẽ lưu đồ thuật toán polling loop cho đề tài nhóm bạn chọn.\nNêu ít nhất một rủi ro kỹ thuật (ngoài pitfall sụt áp đã nêu) có thể gặp khi tích hợp cảm biến với ESP32.\nLập bảng WBS (Work Breakdown Structure) cho lộ trình 6 tuần của đồ án nhóm.\nTheo tiêu chí đánh giá, phần nào (sáng tạo/kỹ thuật, demo, hay báo cáo) nhóm bạn cần đầu tư thời gian nhiều nhất? Vì sao?\n\n\n\n4.5.2 Nguồn tham khảo của chương\nChưa trích dẫn tài liệu học thuật bên ngoài (chưa có citekey trong references/library.bib):\n\nĐề cương chính thức học phần ET2000, Trường Điện – Điện tử (SEEE), Đại học Bách khoa Hà Nội.\nXem thêm Phụ lục A (Bảng thuật ngữ).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_glossary.html",
+    "href": "chapters/appendix_glossary.html",
+    "title": "Phụ lục A — Bảng thuật ngữ",
+    "section": "",
+    "text": "Tổng hợp thuật ngữ xuất hiện trong 4 chương của học phần, xếp theo thứ tự chữ cái (A–Z).\n\n\n\n\n\n\n\n\n\nThuật ngữ\nGiải nghĩa\nChương\n\n\n\n\n5 Whys\nĐặt câu hỏi “Tại sao” liên tiếp 5 lần để truy vết nguyên nhân gốc rễ\n3\n\n\n5W2H\nWho, What, Where, When, Why, How, How much/many — công cụ phân tích vấn đề\n3\n\n\nA3 Report\nBáo cáo giải quyết vấn đề kỹ thuật trên 1 trang giấy A3 (chuẩn Toyota)\n3\n\n\nABET\nAccreditation Board for Engineering and Technology — tổ chức kiểm định kỹ thuật\n1\n\n\nActive Components\nLinh kiện tích cực: diode, transistor, IC — có khuếch đại, cần nguồn nuôi\n2\n\n\nAgile / Scrum / Sprint\nPhương pháp phát triển phần mềm linh hoạt theo vòng lặp\n3\n\n\nArduino Uno R3\nBo mạch vi điều khiển nguồn mở phổ biến trong thực hành\n4\n\n\nBlynk Cloud / ThingSpeak\nNền tảng cloud dashboard điều khiển thiết bị IoT\n4\n\n\nBoolean Algebra\nĐại số Boolean — nền tảng cổng logic (AND, OR, NOT, NAND, NOR, XOR)\n2\n\n\nBuzzer\nCòi phát âm thanh cảnh báo\n4\n\n\nCAE / CAD / CAM / EDA\nCông cụ hỗ trợ kỹ thuật trên máy tính (thiết kế/sản xuất/tự động hoá thiết kế điện tử)\n1\n\n\nCDIO\nConceive – Design – Implement – Operate — mô hình đào tạo kỹ thuật chuẩn quốc tế\n1\n\n\nCPS\nCyber-Physical Systems — hệ thống kết nối thực–ảo\n2\n\n\nDHT11 / DHT22\nCảm biến đo nhiệt độ và độ ẩm không khí\n4\n\n\nDVT\nDesign Validation Test — xác nhận thiết kế vỏ hộp, độ bền, môi trường\n3\n\n\nEDP\nEngineering Design Process — quy trình thiết kế kỹ thuật (9 bước)\n3\n\n\nEmbedded System\nHệ thống nhúng\n2\n\n\nEngineer\nKỹ sư\n1\n\n\nEngineering\nKỹ thuật — ngành ứng dụng nguyên lý khoa học để tạo sản phẩm hữu ích\n1\n\n\nEOS / ESD\nElectrical Overstress / Electrostatic Discharge — hiện tượng quá áp/tĩnh điện gây hỏng linh kiện\n2\n\n\nESP32\nBo mạch vi điều khiển tích hợp Wi-Fi và Bluetooth\n4\n\n\nEVT\nEngineering Validation Test — xác nhận chức năng mạch\n3\n\n\nFirmware / BSP\nPhần sụn / Gói hỗ trợ bo mạch\n2\n\n\nFishbone Diagram\nSơ đồ xương cá (Ishikawa, 4M/6M) phân loại nguyên nhân lỗi\n3\n\n\nHC-SR04\nCảm biến siêu âm đo khoảng cách\n4\n\n\nIEEE Code of Ethics\nBộ quy tắc đạo đức nghề nghiệp kỹ sư điện & điện tử quốc tế\n1\n\n\nIngenium / Ingeniare\nGốc từ tiếng Latin của thuật ngữ engineering\n1\n\n\nIoT / AIoT\nInternet vạn vật / Trí tuệ nhân tạo vạn vật\n2\n\n\nLCD 16x2 I2C\nMàn hình hiển thị tinh thể lỏng 16 ký tự × 2 dòng, giao tiếp chuẩn I2C\n4\n\n\nLDR\nLight Dependent Resistor — cảm biến quang trở/ánh sáng\n4\n\n\nmBlock / Scratch\nPhần mềm lập trình tư duy thuật toán dạng khối lệnh (block-based)\n4\n\n\nMoore’s Law\nĐịnh luật Moore — mật độ transistor trên vi mạch tăng gấp đôi mỗi 18–24 tháng\n2\n\n\nMP\nMass Production — sản xuất hàng loạt\n3\n\n\nMQ-135 / MQ-2\nCảm biến đo chất lượng không khí / khí gas\n4\n\n\nOp-Amp\nOperational Amplifier — bộ khuếch đại thuật toán (ví dụ UA741)\n2\n\n\nPareto Chart\nĐồ thị phân tích lỗi theo nguyên lý 80/20\n3\n\n\nPIR\nPassive Infrared Sensor — cảm biến chuyển động hồng ngoại thụ động\n4\n\n\nPoC\nProof of Concept — bản mẫu chứng minh tính khả thi\n3\n\n\nPolling Loop\nVòng lặp quét định kỳ dữ liệu trong lập trình nhúng\n4\n\n\nPower (\\(p\\))\nCông suất điện, đơn vị Watt\n2\n\n\nPRD\nProduct Requirement Document — tài liệu yêu cầu kỹ thuật sản phẩm\n3\n\n\nPassive Components\nLinh kiện thụ động: điện trở, tụ điện, cuộn cảm\n2\n\n\nPVT\nProduction Validation Test — xác nhận sản xuất trên dây chuyền\n3\n\n\nRelay\nRơ-le trung gian điều khiển thiết bị công suất/220V\n4\n\n\nScientist\nNhà khoa học\n1\n\n\nServo\nĐộng cơ điều khiển góc quay\n4\n\n\nSMART\nSpecific – Measurable – Attainable – Relevant – Time-bound — nguyên tắc đặt mục tiêu\n3\n\n\nTechnician / Artisan\nKỹ thuật viên / Thợ thủ công\n1\n\n\nTechnologist\nNhà công nghệ\n1\n\n\nTRIZ\nLý thuyết giải quyết bài toán sáng chế\n3\n\n\nTruth Table\nBảng chân lý cổng logic\n2\n\n\nVoltage (\\(v\\)) / Current (\\(i\\))\nĐiện áp (Volt) / Dòng điện (Ampere)\n2",
+    "crumbs": [
+      "Phụ lục A — Bảng thuật ngữ"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_xu_huong_cong_nghe.html",
+    "href": "chapters/appendix_xu_huong_cong_nghe.html",
+    "title": "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh",
+    "section": "",
+    "text": "Vì sao đưa phụ lục này vào sách\nĐiện tử – Viễn thông, Kỹ thuật Y sinh (BME) và Trí tuệ Nhân tạo (AI) đang hội tụ thành các hệ sinh thái phức hợp như hệ thống y tế thông minh dựa trên mạng 6G (6G-Enabled Intelligent Healthcare System). Phụ lục này tóm tắt các xu hướng và tiêu chuẩn quốc tế liên quan, để sinh viên mới vào ngành thấy được bức tranh công nghệ rộng hơn nội dung 4 chương chính của học phần.",
+    "crumbs": [
+      "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_xu_huong_cong_nghe.html#b.1.-mạng-6g-ai-native-imt-2030",
+    "href": "chapters/appendix_xu_huong_cong_nghe.html#b.1.-mạng-6g-ai-native-imt-2030",
+    "title": "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh",
+    "section": "B.1. Mạng 6G AI-Native (IMT-2030)",
+    "text": "B.1. Mạng 6G AI-Native (IMT-2030)\nLộ trình chuẩn hoá IMT-2030 do ITU-R Working Party 5D thiết lập đã hoàn thành Giai đoạn 1 (Tầm nhìn tổng quát) vào tháng 6/2023 qua (ITU-R 2023). So với 5G (IMT-2020), 6G hướng tới:\n\n\n\nChỉ tiêu\n5G (IMT-2020)\n6G (IMT-2030)\n\n\n\n\nTốc độ truyền dữ liệu cực đại\n10 Gbps\n100 Gbps – 1 Tbps\n\n\nĐộ trễ trọn gói\n1–5 ms\n&lt; 0,1–1 ms\n\n\nĐộ tin cậy\n99,999%\n&gt; 99,9999%\n\n\nKiến trúc AI\nOverlay/bổ trợ\nAI-Native (nhúng trực tiếp)\n\n\nMật độ kết nối thiết bị\n\\(10^6\\)/km²\n\\(10^7\\)/km²\n\n\n\nKhác với 5G (AI chỉ là lớp bổ trợ tối ưu cục bộ), 6G tích hợp AI vào hệ thống điều khiển cốt lõi — ví dụ các chức năng NWDAF (3GPP TS 23.288) và RAN Intelligent Controller (kiến trúc O-RAN) cho phép mạng tự đo đạc, tự học, tự phân bổ tài nguyên thời gian thực.",
+    "crumbs": [
+      "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_xu_huong_cong_nghe.html#b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs",
+    "href": "chapters/appendix_xu_huong_cong_nghe.html#b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs",
+    "title": "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh",
+    "section": "B.2. Kiến trúc hợp nhất 6G–IoMT–AI trong y tế (6G-IHS)",
+    "text": "B.2. Kiến trúc hợp nhất 6G–IoMT–AI trong y tế (6G-IHS)\nTheo (Anonna và c.s. 2026), kiến trúc 6G-IHS (6G-Enabled Intelligent Healthcare System) gồm 4 tầng: (1) Tầng thiết bị y tế IoMT (cảm biến đeo, thiết bị cấy ghép, robot phẫu thuật); (2) Tầng trí tuệ biên (suy luận AI cục bộ dưới 1ms); (3) Tầng truyền thông 6G (phân lát mạng, độ tin cậy 99,9999%); (4) Tầng đám mây AI trung tâm. Hệ thống đạt độ chính xác chẩn đoán AI 90–98% và giảm khoảng 30% tiêu thụ năng lượng thiết bị IoMT, ứng dụng cho phẫu thuật robot từ xa và giám sát ICU.",
+    "crumbs": [
+      "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_xu_huong_cong_nghe.html#b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms",
+    "href": "chapters/appendix_xu_huong_cong_nghe.html#b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms",
+    "title": "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh",
+    "section": "B.3. Tiến bộ Kỹ thuật Y sinh: giao diện thần kinh và mô hình cảm biến lớn (LSMs)",
+    "text": "B.3. Tiến bộ Kỹ thuật Y sinh: giao diện thần kinh và mô hình cảm biến lớn (LSMs)\nKỹ thuật Y sinh đang chuyển từ thiết bị chẩn đoán rời rạc sang hệ thống cấy ghép thông minh và mô hình xử lý dữ liệu sinh lý liên tục:\n\nVật liệu màng mỏng tương thích sinh học (polyimide, liên kết Dexamethasone) giúp thiết bị cấy ghép thần kinh bền hơn, giảm phản ứng đào thải của mô.\nTruyền năng lượng không dây qua mô bằng cảm biến siêu âm áp điện vi mô (PMUTs) thay thế pin cồng kềnh cho thiết bị cấy sâu trong cơ thể.\nMô hình Cảm biến Lớn (Large Sensor Models – LSMs) dựa trên kiến trúc Transformer: tiếp nhận trực tiếp dữ liệu thô đa mô thức (ECG, PPG, EEG, cảm biến gia tốc), dùng self-supervised learning để phát hiện quy luật sinh lý, dự báo sớm nguy cơ đột quỵ/suy giảm nhận thức.",
+    "crumbs": [
+      "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_xu_huong_cong_nghe.html#b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế",
+    "href": "chapters/appendix_xu_huong_cong_nghe.html#b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế",
+    "title": "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh",
+    "section": "B.4. Xu hướng AI toàn cầu (Stanford AI Index 2025) và quản trị rủi ro y tế",
+    "text": "B.4. Xu hướng AI toàn cầu (Stanford AI Index 2025) và quản trị rủi ro y tế\nTheo (Stanford HAI 2025): 78–88% doanh nghiệp toàn cầu đã triển khai AI, vốn đầu tư tư nhân vượt 250 tỷ USD; khoảng cách hiệu suất giữa mô hình đóng và mô hình mở thu hẹp từ 8% xuống 1,7%. Trong y tế, FDA đã cấp phép 223 thiết bị y tế ứng dụng AI trong một năm.\nĐi kèm tăng trưởng là rủi ro: số sự cố an toàn AI tăng 56,4% trong một năm (233 trường hợp ghi nhận — vi phạm dữ liệu cá nhân, thiên vị thuật toán, sai sót chẩn đoán). Viện ECRI xếp “rủi ro từ công nghệ y tế tích hợp AI” ở vị trí số 1 trong các mối nguy công nghệ y tế. Nhóm chuyên trách ITU/WHO FG-AI4H đang xây dựng khung chuẩn hoá quốc tế yêu cầu các mô hình AI y tế phải minh bạch, công bằng, có khả năng giải thích (Explainable AI – XAI) trước khi cấp phép.",
+    "crumbs": [
+      "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_xu_huong_cong_nghe.html#b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm",
+    "href": "chapters/appendix_xu_huong_cong_nghe.html#b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm",
+    "title": "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh",
+    "section": "B.5. Giáo trình kinh điển liên ngành (đọc thêm)",
+    "text": "B.5. Giáo trình kinh điển liên ngành (đọc thêm)\n\n\n\n\n\n\n\n\nLĩnh vực\nTác phẩm / Tác giả\nNhà xuất bản\n\n\n\n\nKỹ thuật Y sinh tổng quan\nThe Biomedical Engineering Handbook, Joseph D. Bronzino (Ed.)\nCRC Press / Taylor & Francis (Bronzino, không ngày)\n\n\nThiết kế thiết bị y tế\nStandard Handbook of Biomedical Engineering Design, Myer Kutz\nMcGraw-Hill (Kutz, không ngày)\n\n\nNhập môn Kỹ thuật Y sinh\nIntroduction to Biomedical Engineering (3rd ed.), John Enderle & Joseph Bronzino\nAcademic Press (Enderle và Bronzino, không ngày)\n\n\nTrí tuệ Nhân tạo\nArtificial Intelligence: A Modern Approach, Stuart Russell & Peter Norvig\nPearson (Russell và Norvig, không ngày)\n\n\n\n\n\n\n\n\n\nImportantKhoảng trống nguồn — cần giảng viên xác nhận trước khi dùng làm nội dung chính thức\n\n\n\nCó tài liệu tổng hợp so sánh các giáo trình kinh điển về mô hình hồi quy tuyến tính trong Machine Learning (Bishop PRML (Bishop, không ngày), Murphy MLPP (Murphy, không ngày), Duda et al. Pattern Classification (Duda và c.s., không ngày), Andrew Ng CS229 Notes (Ng, không ngày)). Nội dung này ở mức toán học cao hơn nhiều so với một học phần nhập môn năm nhất không nặng toán như ET2000, và dường như được soạn cho một chương “Mô hình tuyến tính cho bài toán hồi quy” — không khớp với Chương 3 thật của ET2000 (công cụ/quy trình thiết kế kỹ thuật). Quan hệ của tài liệu này với ET2000 chưa rõ (có thể dành cho một học phần khác, hoặc chỉ là gợi ý đọc thêm cho sinh viên muốn tìm hiểu sâu AI/ML) — liệt kê ở đây như tài liệu đọc thêm, không đưa vào nội dung bắt buộc.\n\n\n\n\n\n\nAnonna, Sanjida Ahamed, Yunisha Basnet, và Md Mehedi Hasan. 2026. “A 6G-Enabled AI-Powered Intelligent Healthcare Integrating IoMT and Edge Computing”. FCSAI.\n\n\nBishop, Christopher M. không ngày. Pattern Recognition and Machine Learning. Springer.\n\n\nBronzino, Joseph D. không ngày. The Biomedical Engineering Handbook. CRC Press / Taylor & Francis.\n\n\nDuda, Richard O., Peter E. Hart, và David G. Stork. không ngày. Pattern Classification. Wiley.\n\n\nEnderle, John, và Joseph Bronzino. không ngày. Introduction to Biomedical Engineering. 3rd a.b. Academic Press.\n\n\nITU-R. 2023. Recommendation ITU-R M.2160: Framework and overall objectives of the future development of IMT for 2030 and beyond. ITU-R Working Party 5D.\n\n\nKutz, Myer. không ngày. Standard Handbook of Biomedical Engineering Design. McGraw-Hill.\n\n\nMurphy, Kevin P. không ngày. Machine Learning: A Probabilistic Perspective. MIT Press.\n\n\nNg, Andrew. không ngày. CS229 Lecture Notes. Stanford University.\n\n\nRussell, Stuart, và Peter Norvig. không ngày. Artificial Intelligence: A Modern Approach. Pearson.\n\n\nStanford HAI. 2025. AI Index Report 2025.",
+    "crumbs": [
+      "Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Danh mục tài liệu tham khảo",
+    "section": "",
+    "text": "Sách giáo trình & tham khảo bắt buộc của học phần",
+    "crumbs": [
+      "Danh mục tài liệu tham khảo"
+    ]
+  },
+  {
+    "objectID": "references.html#sách-giáo-trình-tham-khảo-bắt-buộc-của-học-phần",
+    "href": "references.html#sách-giáo-trình-tham-khảo-bắt-buộc-của-học-phần",
+    "title": "Danh mục tài liệu tham khảo",
+    "section": "",
+    "text": "Charles B. Fleddermann, Martin D. Bradshaw, Introduction to Electrical and Computer Engineering, Prentice Hall, 2003. (Fleddermann và Bradshaw 2003)\nNguyễn Vũ Phương Nam, Bốn bước giải quyết vấn đề: Giải thích – Quyết định – Vấn đáp – Đề xuất, Nhà xuất bản Dân Trí. (Nam, không ngày)\nIEEE, IEEE Code of Ethics. (IEEE, không ngày)",
+    "crumbs": [
+      "Danh mục tài liệu tham khảo"
+    ]
+  },
+  {
+    "objectID": "references.html#giáo-trình-nền-tảng-liên-ngành-tham-khảo-mở-rộng",
+    "href": "references.html#giáo-trình-nền-tảng-liên-ngành-tham-khảo-mở-rộng",
+    "title": "Danh mục tài liệu tham khảo",
+    "section": "Giáo trình nền tảng liên ngành (tham khảo mở rộng)",
+    "text": "Giáo trình nền tảng liên ngành (tham khảo mở rộng)\n\nStuart Russell, Peter Norvig, Artificial Intelligence: A Modern Approach, Pearson. (Russell và Norvig, không ngày)\nJoseph D. Bronzino (Ed.), The Biomedical Engineering Handbook, CRC Press / Taylor & Francis. (Bronzino, không ngày)\nMyer Kutz, Standard Handbook of Biomedical Engineering Design, McGraw-Hill. (Kutz, không ngày)\nJohn Enderle, Joseph Bronzino, Introduction to Biomedical Engineering, 3rd Edition, Academic Press. (Enderle và Bronzino, không ngày)",
+    "crumbs": [
+      "Danh mục tài liệu tham khảo"
+    ]
+  },
+  {
+    "objectID": "references.html#báo-cáotiêu-chuẩn-xu-hướng-công-nghệ",
+    "href": "references.html#báo-cáotiêu-chuẩn-xu-hướng-công-nghệ",
+    "title": "Danh mục tài liệu tham khảo",
+    "section": "Báo cáo/tiêu chuẩn xu hướng công nghệ",
+    "text": "Báo cáo/tiêu chuẩn xu hướng công nghệ\nXem chi tiết và ngữ cảnh ở Phụ lục B.\n\nSanjida Ahamed Anonna, Yunisha Basnet, Md Mehedi Hasan, “A 6G-Enabled AI-Powered Intelligent Healthcare Integrating IoMT and Edge Computing”, FCSAI, 2026. (Anonna và c.s. 2026)\nITU-R Working Party 5D, Recommendation ITU-R M.2160 (IMT-2030 / 6G Vision), 2023. (ITU-R 2023)\nStanford HAI, AI Index Report 2025. (Stanford HAI 2025)",
+    "crumbs": [
+      "Danh mục tài liệu tham khảo"
+    ]
+  },
+  {
+    "objectID": "references.html#phần-mềm-và-công-cụ-học-tập",
+    "href": "references.html#phần-mềm-và-công-cụ-học-tập",
+    "title": "Danh mục tài liệu tham khảo",
+    "section": "Phần mềm và công cụ học tập",
+    "text": "Phần mềm và công cụ học tập\n\nBáo cáo & thuyết trình: Microsoft Word, Microsoft PowerPoint.\nLập trình thuật toán: Scratch / mBlock.\nPhần cứng thực hành: Arduino Uno R3, ESP32 và các mô-đun cảm biến.\nQuản lý công việc nhóm: Microsoft Teams.",
+    "crumbs": [
+      "Danh mục tài liệu tham khảo"
+    ]
+  },
+  {
+    "objectID": "references.html#đọc-thêm-phụ-lục",
+    "href": "references.html#đọc-thêm-phụ-lục",
+    "title": "Danh mục tài liệu tham khảo",
+    "section": "Đọc thêm (phụ lục)",
+    "text": "Đọc thêm (phụ lục)\n\nPhụ lục A — Bảng thuật ngữ.\nPhụ lục B — Xu hướng công nghệ AI & Kỹ thuật Y sinh.\n\n\n\n\n\nAnonna, Sanjida Ahamed, Yunisha Basnet, và Md Mehedi Hasan. 2026. “A 6G-Enabled AI-Powered Intelligent Healthcare Integrating IoMT and Edge Computing”. FCSAI.\n\n\nBronzino, Joseph D. không ngày. The Biomedical Engineering Handbook. CRC Press / Taylor & Francis.\n\n\nEnderle, John, và Joseph Bronzino. không ngày. Introduction to Biomedical Engineering. 3rd a.b. Academic Press.\n\n\nFleddermann, Charles B., và Martin D. Bradshaw. 2003. Introduction to Electrical and Computer Engineering. Prentice Hall.\n\n\nIEEE. không ngày. IEEE Code of Ethics. IEEE.\n\n\nITU-R. 2023. Recommendation ITU-R M.2160: Framework and overall objectives of the future development of IMT for 2030 and beyond. ITU-R Working Party 5D.\n\n\nKutz, Myer. không ngày. Standard Handbook of Biomedical Engineering Design. McGraw-Hill.\n\n\nNam, Nguyễn Vũ Phương. không ngày. Bốn bước giải quyết vấn đề: Giải thích – Quyết định – Vấn đáp – Đề xuất. Nhà xuất bản Dân Trí.\n\n\nRussell, Stuart, và Peter Norvig. không ngày. Artificial Intelligence: A Modern Approach. Pearson.\n\n\nStanford HAI. 2025. AI Index Report 2025.",
+    "crumbs": [
+      "Danh mục tài liệu tham khảo"
+    ]
+  }
+]

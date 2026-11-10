@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh – Nhập môn Kỹ thuật Điện tử Viễn thông</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../references.html" rel="next">
+<link href="../chapters/appendix_glossary.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-262d2f45bdec27dd95b9a841b9682452.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../assets/watermark.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/appendix_xu_huong_cong_nghe.html">Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh</a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Nhập môn Kỹ thuật Điện tử Viễn thông</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Giới thiệu mở đầu</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch01_nganh_ky_thuat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch02_dtvt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../activities/thuc-tap-nhan-thuc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thực tập nhận thức tại doanh nghiệp (Tuần 9)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch03_cong_cu_thiet_ke.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Công cụ và các Phương pháp Thiết kế Kỹ thuật</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch04_team_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix_glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phụ lục A — Bảng thuật ngữ</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix_xu_huong_cong_nghe.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Danh mục tài liệu tham khảo</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#vì-sao-đưa-phụ-lục-này-vào-sách" id="toc-vì-sao-đưa-phụ-lục-này-vào-sách" class="nav-link active" data-scroll-target="#vì-sao-đưa-phụ-lục-này-vào-sách">Vì sao đưa phụ lục này vào sách</a></li>
+  <li><a href="#b.1.-mạng-6g-ai-native-imt-2030" id="toc-b.1.-mạng-6g-ai-native-imt-2030" class="nav-link" data-scroll-target="#b.1.-mạng-6g-ai-native-imt-2030">B.1. Mạng 6G AI-Native (IMT-2030)</a></li>
+  <li><a href="#b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs" id="toc-b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs" class="nav-link" data-scroll-target="#b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs">B.2. Kiến trúc hợp nhất 6G–IoMT–AI trong y tế (6G-IHS)</a></li>
+  <li><a href="#b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms" id="toc-b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms" class="nav-link" data-scroll-target="#b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms">B.3. Tiến bộ Kỹ thuật Y sinh: giao diện thần kinh và mô hình cảm biến lớn (LSMs)</a></li>
+  <li><a href="#b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế" id="toc-b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế" class="nav-link" data-scroll-target="#b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế">B.4. Xu hướng AI toàn cầu (Stanford AI Index 2025) và quản trị rủi ro y tế</a></li>
+  <li><a href="#b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm" id="toc-b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm" class="nav-link" data-scroll-target="#b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm">B.5. Giáo trình kinh điển liên ngành (đọc thêm)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>Đây là nội dung <strong>đọc thêm/mở rộng</strong>, không phải nội dung thi/đồ án bắt buộc của ET2000 — mối liên hệ trực tiếp với CLO của học phần chưa được giảng viên xác nhận.</p>
+</blockquote>
+<section id="vì-sao-đưa-phụ-lục-này-vào-sách" class="level2">
+<h2 class="anchored" data-anchor-id="vì-sao-đưa-phụ-lục-này-vào-sách">Vì sao đưa phụ lục này vào sách</h2>
+<p>Điện tử – Viễn thông, Kỹ thuật Y sinh (BME) và Trí tuệ Nhân tạo (AI) đang hội tụ thành các hệ sinh thái phức hợp như hệ thống y tế thông minh dựa trên mạng 6G (6G-Enabled Intelligent Healthcare System). Phụ lục này tóm tắt các xu hướng và tiêu chuẩn quốc tế liên quan, để sinh viên mới vào ngành thấy được bức tranh công nghệ rộng hơn nội dung 4 chương chính của học phần.</p>
+</section>
+<section id="b.1.-mạng-6g-ai-native-imt-2030" class="level2">
+<h2 class="anchored" data-anchor-id="b.1.-mạng-6g-ai-native-imt-2030">B.1. Mạng 6G AI-Native (IMT-2030)</h2>
+<p>Lộ trình chuẩn hoá IMT-2030 do ITU-R Working Party 5D thiết lập đã hoàn thành Giai đoạn 1 (Tầm nhìn tổng quát) vào tháng 6/2023 qua <span class="citation" data-cites="itu_m2160">(<a href="#ref-itu_m2160" role="doc-biblioref">ITU-R 2023</a>)</span>. So với 5G (IMT-2020), 6G hướng tới:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Chỉ tiêu</th>
+<th>5G (IMT-2020)</th>
+<th>6G (IMT-2030)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tốc độ truyền dữ liệu cực đại</td>
+<td>10 Gbps</td>
+<td>100 Gbps – 1 Tbps</td>
+</tr>
+<tr class="even">
+<td>Độ trễ trọn gói</td>
+<td>1–5 ms</td>
+<td>&lt; 0,1–1 ms</td>
+</tr>
+<tr class="odd">
+<td>Độ tin cậy</td>
+<td>99,999%</td>
+<td>&gt; 99,9999%</td>
+</tr>
+<tr class="even">
+<td>Kiến trúc AI</td>
+<td>Overlay/bổ trợ</td>
+<td>AI-Native (nhúng trực tiếp)</td>
+</tr>
+<tr class="odd">
+<td>Mật độ kết nối thiết bị</td>
+<td><span class="math inline">\(10^6\)</span>/km²</td>
+<td><span class="math inline">\(10^7\)</span>/km²</td>
+</tr>
+</tbody>
+</table>
+<p>Khác với 5G (AI chỉ là lớp bổ trợ tối ưu cục bộ), 6G tích hợp AI vào hệ thống điều khiển cốt lõi — ví dụ các chức năng NWDAF (3GPP TS 23.288) và RAN Intelligent Controller (kiến trúc O-RAN) cho phép mạng tự đo đạc, tự học, tự phân bổ tài nguyên thời gian thực.</p>
+</section>
+<section id="b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs" class="level2">
+<h2 class="anchored" data-anchor-id="b.2.-kiến-trúc-hợp-nhất-6giomtai-trong-y-tế-6g-ihs">B.2. Kiến trúc hợp nhất 6G–IoMT–AI trong y tế (6G-IHS)</h2>
+<p>Theo <span class="citation" data-cites="anonna2026_6g_healthcare">(<a href="#ref-anonna2026_6g_healthcare" role="doc-biblioref">Anonna và c.s. 2026</a>)</span>, kiến trúc 6G-IHS (6G-Enabled Intelligent Healthcare System) gồm 4 tầng: (1) Tầng thiết bị y tế IoMT (cảm biến đeo, thiết bị cấy ghép, robot phẫu thuật); (2) Tầng trí tuệ biên (suy luận AI cục bộ dưới 1ms); (3) Tầng truyền thông 6G (phân lát mạng, độ tin cậy 99,9999%); (4) Tầng đám mây AI trung tâm. Hệ thống đạt độ chính xác chẩn đoán AI 90–98% và giảm khoảng 30% tiêu thụ năng lượng thiết bị IoMT, ứng dụng cho phẫu thuật robot từ xa và giám sát ICU.</p>
+</section>
+<section id="b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms" class="level2">
+<h2 class="anchored" data-anchor-id="b.3.-tiến-bộ-kỹ-thuật-y-sinh-giao-diện-thần-kinh-và-mô-hình-cảm-biến-lớn-lsms">B.3. Tiến bộ Kỹ thuật Y sinh: giao diện thần kinh và mô hình cảm biến lớn (LSMs)</h2>
+<p>Kỹ thuật Y sinh đang chuyển từ thiết bị chẩn đoán rời rạc sang hệ thống cấy ghép thông minh và mô hình xử lý dữ liệu sinh lý liên tục:</p>
+<ul>
+<li>Vật liệu màng mỏng tương thích sinh học (polyimide, liên kết Dexamethasone) giúp thiết bị cấy ghép thần kinh bền hơn, giảm phản ứng đào thải của mô.</li>
+<li>Truyền năng lượng không dây qua mô bằng cảm biến siêu âm áp điện vi mô (PMUTs) thay thế pin cồng kềnh cho thiết bị cấy sâu trong cơ thể.</li>
+<li><strong>Mô hình Cảm biến Lớn (Large Sensor Models – LSMs)</strong> dựa trên kiến trúc Transformer: tiếp nhận trực tiếp dữ liệu thô đa mô thức (ECG, PPG, EEG, cảm biến gia tốc), dùng self-supervised learning để phát hiện quy luật sinh lý, dự báo sớm nguy cơ đột quỵ/suy giảm nhận thức.</li>
+</ul>
+</section>
+<section id="b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế" class="level2">
+<h2 class="anchored" data-anchor-id="b.4.-xu-hướng-ai-toàn-cầu-stanford-ai-index-2025-và-quản-trị-rủi-ro-y-tế">B.4. Xu hướng AI toàn cầu (Stanford AI Index 2025) và quản trị rủi ro y tế</h2>
+<p>Theo <span class="citation" data-cites="stanford_ai_index_2025">(<a href="#ref-stanford_ai_index_2025" role="doc-biblioref">Stanford HAI 2025</a>)</span>: 78–88% doanh nghiệp toàn cầu đã triển khai AI, vốn đầu tư tư nhân vượt 250 tỷ USD; khoảng cách hiệu suất giữa mô hình đóng và mô hình mở thu hẹp từ 8% xuống 1,7%. Trong y tế, FDA đã cấp phép 223 thiết bị y tế ứng dụng AI trong một năm.</p>
+<p>Đi kèm tăng trưởng là rủi ro: số sự cố an toàn AI tăng 56,4% trong một năm (233 trường hợp ghi nhận — vi phạm dữ liệu cá nhân, thiên vị thuật toán, sai sót chẩn đoán). Viện ECRI xếp “rủi ro từ công nghệ y tế tích hợp AI” ở vị trí số 1 trong các mối nguy công nghệ y tế. Nhóm chuyên trách ITU/WHO FG-AI4H đang xây dựng khung chuẩn hoá quốc tế yêu cầu các mô hình AI y tế phải minh bạch, công bằng, có khả năng giải thích (Explainable AI – XAI) trước khi cấp phép.</p>
+</section>
+<section id="b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm" class="level2">
+<h2 class="anchored" data-anchor-id="b.5.-giáo-trình-kinh-điển-liên-ngành-đọc-thêm">B.5. Giáo trình kinh điển liên ngành (đọc thêm)</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lĩnh vực</th>
+<th>Tác phẩm / Tác giả</th>
+<th>Nhà xuất bản</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Kỹ thuật Y sinh tổng quan</td>
+<td><em>The Biomedical Engineering Handbook</em>, Joseph D. Bronzino (Ed.)</td>
+<td>CRC Press / Taylor &amp; Francis <span class="citation" data-cites="bronzino_bme_handbook">(<a href="#ref-bronzino_bme_handbook" role="doc-biblioref">Bronzino, không ngày</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Thiết kế thiết bị y tế</td>
+<td><em>Standard Handbook of Biomedical Engineering Design</em>, Myer Kutz</td>
+<td>McGraw-Hill <span class="citation" data-cites="kutz_bme_design">(<a href="#ref-kutz_bme_design" role="doc-biblioref">Kutz, không ngày</a>)</span></td>
+</tr>
+<tr class="odd">
+<td>Nhập môn Kỹ thuật Y sinh</td>
+<td><em>Introduction to Biomedical Engineering</em> (3rd ed.), John Enderle &amp; Joseph Bronzino</td>
+<td>Academic Press <span class="citation" data-cites="enderle_bronzino_intro_bme">(<a href="#ref-enderle_bronzino_intro_bme" role="doc-biblioref">Enderle và Bronzino, không ngày</a>)</span></td>
+</tr>
+<tr class="even">
+<td>Trí tuệ Nhân tạo</td>
+<td><em>Artificial Intelligence: A Modern Approach</em>, Stuart Russell &amp; Peter Norvig</td>
+<td>Pearson <span class="citation" data-cites="russell_norvig_aima">(<a href="#ref-russell_norvig_aima" role="doc-biblioref">Russell và Norvig, không ngày</a>)</span></td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Khoảng trống nguồn — cần giảng viên xác nhận trước khi dùng làm nội dung chính thức
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Có tài liệu tổng hợp so sánh các giáo trình kinh điển về mô hình hồi quy tuyến tính trong Machine Learning (Bishop <em>PRML</em> <span class="citation" data-cites="bishop_prml">(<a href="#ref-bishop_prml" role="doc-biblioref">Bishop, không ngày</a>)</span>, Murphy <em>MLPP</em> <span class="citation" data-cites="murphy_mlpp">(<a href="#ref-murphy_mlpp" role="doc-biblioref">Murphy, không ngày</a>)</span>, Duda et al.&nbsp;<em>Pattern Classification</em> <span class="citation" data-cites="duda_pattern_classification">(<a href="#ref-duda_pattern_classification" role="doc-biblioref">Duda và c.s., không ngày</a>)</span>, Andrew Ng <em>CS229 Notes</em> <span class="citation" data-cites="ng_cs229">(<a href="#ref-ng_cs229" role="doc-biblioref">Ng, không ngày</a>)</span>). Nội dung này ở mức toán học cao hơn nhiều so với một học phần nhập môn năm nhất không nặng toán như ET2000, và dường như được soạn cho một chương “Mô hình tuyến tính cho bài toán hồi quy” — không khớp với Chương 3 thật của ET2000 (công cụ/quy trình thiết kế kỹ thuật). Quan hệ của tài liệu này với ET2000 <strong>chưa rõ</strong> (có thể dành cho một học phần khác, hoặc chỉ là gợi ý đọc thêm cho sinh viên muốn tìm hiểu sâu AI/ML) — liệt kê ở đây như tài liệu đọc thêm, không đưa vào nội dung bắt buộc.</p>
+</div>
+</div>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-anonna2026_6g_healthcare" class="csl-entry" role="listitem">
+Anonna, Sanjida Ahamed, Yunisha Basnet, và Md Mehedi Hasan. 2026. <span>“A 6G-Enabled AI-Powered Intelligent Healthcare Integrating IoMT and Edge Computing”</span>. <em>FCSAI</em>.
+</div>
+<div id="ref-bishop_prml" class="csl-entry" role="listitem">
+Bishop, Christopher M. không ngày. <em>Pattern Recognition and Machine Learning</em>. Springer.
+</div>
+<div id="ref-bronzino_bme_handbook" class="csl-entry" role="listitem">
+Bronzino, Joseph D. không ngày. <em>The Biomedical Engineering Handbook</em>. CRC Press / Taylor &amp; Francis.
+</div>
+<div id="ref-duda_pattern_classification" class="csl-entry" role="listitem">
+Duda, Richard O., Peter E. Hart, và David G. Stork. không ngày. <em>Pattern Classification</em>. Wiley.
+</div>
+<div id="ref-enderle_bronzino_intro_bme" class="csl-entry" role="listitem">
+Enderle, John, và Joseph Bronzino. không ngày. <em>Introduction to Biomedical Engineering</em>. 3rd a.b. Academic Press.
+</div>
+<div id="ref-itu_m2160" class="csl-entry" role="listitem">
+ITU-R. 2023. <em>Recommendation ITU-R M.2160: Framework and overall objectives of the future development of IMT for 2030 and beyond</em>. ITU-R Working Party 5D.
+</div>
+<div id="ref-kutz_bme_design" class="csl-entry" role="listitem">
+Kutz, Myer. không ngày. <em>Standard Handbook of Biomedical Engineering Design</em>. McGraw-Hill.
+</div>
+<div id="ref-murphy_mlpp" class="csl-entry" role="listitem">
+Murphy, Kevin P. không ngày. <em>Machine Learning: A Probabilistic Perspective</em>. MIT Press.
+</div>
+<div id="ref-ng_cs229" class="csl-entry" role="listitem">
+Ng, Andrew. không ngày. <em>CS229 Lecture Notes</em>. Stanford University.
+</div>
+<div id="ref-russell_norvig_aima" class="csl-entry" role="listitem">
+Russell, Stuart, và Peter Norvig. không ngày. <em>Artificial Intelligence: A Modern Approach</em>. Pearson.
+</div>
+<div id="ref-stanford_ai_index_2025" class="csl-entry" role="listitem">
+Stanford HAI. 2025. <em>AI Index Report 2025</em>.
+</div>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
+  <div class="nav-page nav-page-previous">
+      <a href="../chapters/appendix_glossary.html" class="pagination-link" aria-label="Phụ lục A — Bảng thuật ngữ">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Phụ lục A — Bảng thuật ngữ</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../references.html" class="pagination-link" aria-label="Danh mục tài liệu tham khảo">
+        <span class="nav-page-text">Danh mục tài liệu tham khảo</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

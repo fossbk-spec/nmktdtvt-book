@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>1&nbsp; Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư – Nhập môn Kỹ thuật Điện tử Viễn thông</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/ch02_dtvt.html" rel="next">
+<link href="../index.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-262d2f45bdec27dd95b9a841b9682452.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../assets/watermark.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" aria-label="Toolbar">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/ch01_nganh_ky_thuat.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span></a></li></ol></nav>
+        <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto" aria-label="Site">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Nhập môn Kỹ thuật Điện tử Viễn thông</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Giới thiệu mở đầu</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch01_nganh_ky_thuat.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch02_dtvt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../activities/thuc-tap-nhan-thuc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thực tập nhận thức tại doanh nghiệp (Tuần 9)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch03_cong_cu_thiet_ke.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Công cụ và các Phương pháp Thiết kế Kỹ thuật</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/ch04_team_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Triển khai và Đánh giá Bài tập lớn Thiết kế — Team Project</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix_glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phụ lục A — Bảng thuật ngữ</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/appendix_xu_huong_cong_nghe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phụ lục B — Xu hướng công nghệ AI và Kỹ thuật Y sinh</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Danh mục tài liệu tham khảo</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" aria-labelledby="toc-title" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan" id="toc-mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan" class="nav-link active" data-scroll-target="#mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan"><span class="header-section-number">1.1</span> Mục tiêu học tập &amp; chuẩn đầu ra liên quan</a></li>
+  <li><a href="#bản-đồ-khái-niệm-tổng-quan" id="toc-bản-đồ-khái-niệm-tổng-quan" class="nav-link" data-scroll-target="#bản-đồ-khái-niệm-tổng-quan"><span class="header-section-number">1.2</span> Bản đồ khái niệm tổng quan</a></li>
+  <li><a href="#nội-dung-cốt-lõi" id="toc-nội-dung-cốt-lõi" class="nav-link" data-scroll-target="#nội-dung-cốt-lõi"><span class="header-section-number">1.3</span> Nội dung cốt lõi</a>
+  <ul class="collapse">
+  <li><a href="#khái-niệm-kỹ-thuật-engineering" id="toc-khái-niệm-kỹ-thuật-engineering" class="nav-link" data-scroll-target="#khái-niệm-kỹ-thuật-engineering"><span class="header-section-number">1.3.1</span> Khái niệm Kỹ thuật (Engineering)</a></li>
+  <li><a href="#bốn-nhóm-nhân-lực-trong-đội-ngũ-công-nghệ" id="toc-bốn-nhóm-nhân-lực-trong-đội-ngũ-công-nghệ" class="nav-link" data-scroll-target="#bốn-nhóm-nhân-lực-trong-đội-ngũ-công-nghệ"><span class="header-section-number">1.3.2</span> Bốn nhóm nhân lực trong đội ngũ công nghệ</a></li>
+  <li><a href="#các-ngành-kỹ-thuật-và-tính-liên-ngành" id="toc-các-ngành-kỹ-thuật-và-tính-liên-ngành" class="nav-link" data-scroll-target="#các-ngành-kỹ-thuật-và-tính-liên-ngành"><span class="header-section-number">1.3.3</span> Các ngành kỹ thuật và tính liên ngành</a></li>
+  <li><a href="#mô-hình-cdio" id="toc-mô-hình-cdio" class="nav-link" data-scroll-target="#mô-hình-cdio"><span class="header-section-number">1.3.4</span> Mô hình CDIO</a></li>
+  <li><a href="#đạo-đức-nghề-nghiệp-kỹ-sư-ieee-code-of-ethics" id="toc-đạo-đức-nghề-nghiệp-kỹ-sư-ieee-code-of-ethics" class="nav-link" data-scroll-target="#đạo-đức-nghề-nghiệp-kỹ-sư-ieee-code-of-ethics"><span class="header-section-number">1.3.5</span> Đạo đức nghề nghiệp kỹ sư (IEEE Code of Ethics)</a></li>
+  </ul></li>
+  <li><a href="#case-study-tình-huống-nghề-nghiệp-thực-tế" id="toc-case-study-tình-huống-nghề-nghiệp-thực-tế" class="nav-link" data-scroll-target="#case-study-tình-huống-nghề-nghiệp-thực-tế"><span class="header-section-number">1.4</span> Case study / tình huống nghề nghiệp thực tế</a></li>
+  <li><a href="#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo" id="toc-câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo" class="nav-link" data-scroll-target="#câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo"><span class="header-section-number">1.5</span> Câu hỏi thảo luận nhóm &amp; tài liệu tham khảo</a>
+  <ul class="collapse">
+  <li><a href="#câu-hỏi-thảo-luận" id="toc-câu-hỏi-thảo-luận" class="nav-link" data-scroll-target="#câu-hỏi-thảo-luận"><span class="header-section-number">1.5.1</span> Câu hỏi thảo luận</a></li>
+  <li><a href="#nguồn-tham-khảo-của-chương" id="toc-nguồn-tham-khảo-của-chương" class="nav-link" data-scroll-target="#nguồn-tham-khảo-của-chương"><span class="header-section-number">1.5.2</span> Nguồn tham khảo của chương</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-ch01" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Giới thiệu chung về các Lĩnh vực Kỹ thuật và Nghề nghiệp Kỹ sư</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>Bản sơ thảo — chưa được giảng viên/chủ học phần xác nhận là bản chính thức.</p>
+</blockquote>
+<section id="mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="mục-tiêu-học-tập-chuẩn-đầu-ra-liên-quan"><span class="header-section-number">1.1</span> Mục tiêu học tập &amp; chuẩn đầu ra liên quan</h2>
+<p>Theo đề cương ET2000: <strong>M1</strong> (phân biệt các ngành kỹ thuật nói chung và vai trò của kỹ thuật trong phát triển kinh tế – xã hội), <strong>M3</strong> (phân biệt chương trình học/nghề nghiệp), <strong>M5</strong> (đạo đức nghề nghiệp — một phần).</p>
+<p>Sau chương này, sinh viên có thể:</p>
+<ol type="1">
+<li>Phân biệt Kỹ thuật (Engineering) với Khoa học (Science), Công nghệ (Technology).</li>
+<li>Phân biệt 4 nhóm nhân lực trong đội ngũ công nghệ: nhà khoa học, kỹ sư, nhà công nghệ, kỹ thuật viên.</li>
+<li>Trình bày mô hình CDIO (Conceive – Design – Implement – Operate).</li>
+<li>Nêu được các cam kết chính trong Bộ quy tắc đạo đức nghề nghiệp kỹ sư IEEE.</li>
+</ol>
+</section>
+<section id="bản-đồ-khái-niệm-tổng-quan" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="bản-đồ-khái-niệm-tổng-quan"><span class="header-section-number">1.2</span> Bản đồ khái niệm tổng quan</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+
+<pre class="mermaid mermaid-js">flowchart LR
+    subgraph Science["Khoa học"]
+        S1[Physical System] --&gt; S2[Concrete Description&lt;br/&gt;Measure] --&gt; S3[Abstract Model&lt;br/&gt;Scientific Inquiry] --&gt; S1
+    end
+    subgraph Engineering["Kỹ thuật"]
+        E1[Abstract Model&lt;br/&gt;design concept] --&gt; E2[Concrete Description&lt;br/&gt;specification] --&gt; E3[Physical System&lt;br/&gt;useful product]
+    end
+    Science -.-&gt;|"Ask why / Build to learn"| NhaKhoaHoc[Nhà khoa học]
+    Engineering -.-&gt;|"Ask how / Learn to build"| KySu[Kỹ sư]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="nội-dung-cốt-lõi" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="nội-dung-cốt-lõi"><span class="header-section-number">1.3</span> Nội dung cốt lõi</h2>
+<section id="khái-niệm-kỹ-thuật-engineering" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="khái-niệm-kỹ-thuật-engineering"><span class="header-section-number">1.3.1</span> Khái niệm Kỹ thuật (Engineering)</h3>
+<p>Từ <em>engineering</em> bắt nguồn từ tiếng Latin <em>ingenium</em> (“thông minh”) và <em>ingeniare</em> (“phấn đấu, nghĩ ra”). Theo định nghĩa của ABET (Accreditation Board for Engineering and Technology): kỹ thuật là nghề nghiệp trong đó kiến thức toán học và khoa học tự nhiên (thu được qua học tập, kinh nghiệm, thực hành) được áp dụng cùng sự phán đoán để phát triển các phương pháp sử dụng kinh tế vật liệu và lực lượng tự nhiên vì lợi ích con người.</p>
+<p>Khoa học và kỹ thuật đi theo hai hướng ngược nhau: khoa học đo đạc một hệ thống vật lý để xây dựng mô hình lý thuyết trừu tượng; kỹ thuật bắt đầu từ một mô hình/ý tưởng trừu tượng để thiết kế ra một sản phẩm vật lý hữu ích.</p>
+</section>
+<section id="bốn-nhóm-nhân-lực-trong-đội-ngũ-công-nghệ" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="bốn-nhóm-nhân-lực-trong-đội-ngũ-công-nghệ"><span class="header-section-number">1.3.2</span> Bốn nhóm nhân lực trong đội ngũ công nghệ</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vai trò</th>
+<th>Câu hỏi đặc trưng</th>
+<th>Đặc điểm</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Nhà khoa học (Scientist)</strong></td>
+<td>“Tại sao?” (<em>Ask why</em>)</td>
+<td>Khám phá quy luật tự nhiên, “Build to learn”</td>
+</tr>
+<tr class="even">
+<td><strong>Kỹ sư (Engineer)</strong></td>
+<td>“Làm thế nào?” (<em>Ask how</em>)</td>
+<td>Biến đổi lực tự nhiên thành sản phẩm, “Learn to build”</td>
+</tr>
+<tr class="odd">
+<td><strong>Nhà công nghệ (Technologist)</strong></td>
+<td>—</td>
+<td>Ứng dụng trực tiếp nguyên lý kỹ thuật đã thiết lập, ít lý thuyết hơn</td>
+</tr>
+<tr class="even">
+<td><strong>Kỹ thuật viên (Technician)</strong></td>
+<td>—</td>
+<td>Kỹ năng thực hành thành thạo trong một lĩnh vực cụ thể</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="các-ngành-kỹ-thuật-và-tính-liên-ngành" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="các-ngành-kỹ-thuật-và-tính-liên-ngành"><span class="header-section-number">1.3.3</span> Các ngành kỹ thuật và tính liên ngành</h3>
+<p>Bốn ngành kỹ thuật chính: Kỹ thuật Hóa học, Kỹ thuật Xây dựng, Kỹ thuật Điện – Điện tử, Kỹ thuật Cơ khí. Nhiều ngành khác mang tính liên ngành: kỹ thuật y sinh, ô tô, máy tính, hàng không vũ trụ, đo lường điều khiển, phần mềm… Trong kỷ nguyên số, ranh giới giữa các ngành ngày càng mờ nhạt — dữ liệu và tri thức kết nối liên tục giữa Điện, Tự động hoá, CNTT, Điện tử Viễn thông, Cơ điện tử và Cơ khí.</p>
+</section>
+<section id="mô-hình-cdio" class="level3" data-number="1.3.4">
+<h3 data-number="1.3.4" class="anchored" data-anchor-id="mô-hình-cdio"><span class="header-section-number">1.3.4</span> Mô hình CDIO</h3>
+<ul>
+<li><strong>Conceive (Hình thành ý tưởng):</strong> hiểu vấn đề cần giải quyết.</li>
+<li><strong>Design (Thiết kế):</strong> đưa ra giải pháp kỹ thuật.</li>
+<li><strong>Implement (Thực hiện):</strong> chế tạo, kết nối, lập trình, kiểm nghiệm giải pháp.</li>
+<li><strong>Operate (Vận hành):</strong> thử nghiệm, đo đạc, vận hành, cải tiến.</li>
+</ul>
+</section>
+<section id="đạo-đức-nghề-nghiệp-kỹ-sư-ieee-code-of-ethics" class="level3" data-number="1.3.5">
+<h3 data-number="1.3.5" class="anchored" data-anchor-id="đạo-đức-nghề-nghiệp-kỹ-sư-ieee-code-of-ethics"><span class="header-section-number">1.3.5</span> Đạo đức nghề nghiệp kỹ sư (IEEE Code of Ethics)</h3>
+<p>Theo <span class="citation" data-cites="ieee_code_of_ethics">(<a href="#ref-ieee_code_of_ethics" role="doc-biblioref">IEEE, không ngày</a>)</span>, mười cam kết cốt lõi: (1) đảm bảo an toàn/sức khoẻ/phúc lợi công chúng; (2) tránh xung đột lợi ích; (3) trung thực, thực tế trong ước tính kỹ thuật; (4) từ chối hối lộ; (5) cải thiện hiểu biết công nghệ; (6) duy trì năng lực kỹ thuật cá nhân; (7) chấp nhận/đưa ra phê bình xây dựng; (8) đối xử công bằng, không phân biệt; (9) tránh làm tổn hại người khác; (10) hỗ trợ đồng nghiệp phát triển nghề nghiệp.</p>
+</section>
+</section>
+<section id="case-study-tình-huống-nghề-nghiệp-thực-tế" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="case-study-tình-huống-nghề-nghiệp-thực-tế"><span class="header-section-number">1.4</span> Case study / tình huống nghề nghiệp thực tế</h2>
+<p><strong>Khảo sát nhận thức về kỹ sư (Hideo Ohashi, 2007):</strong> khảo sát 1.048 học sinh 12–17 tuổi tại Nhật Bản; 644 học sinh nêu được ít nhất 1 tên kỹ sư trong 1.188 lượt bình chọn — Thomas Edison (185 lượt), Albert Einstein (128 lượt, thực chất là nhà khoa học), Wright Brothers (80 lượt). Minh hoạ việc công chúng thường nhầm lẫn giữa “nhà khoa học” và “kỹ sư”.</p>
+<p><strong>Thống kê phổ việc làm sinh viên ĐTVT tốt nghiệp (SEEE 2024, ĐH Bách khoa Hà Nội):</strong> Kỹ sư thiết kế/phát triển (68%), Kỹ sư lắp đặt/vận hành/bảo trì (18%), Quản lý sản xuất/sản phẩm (6%), Kinh doanh/bán hàng (4%), Tư vấn/quản lý dự án (1%), Giảng dạy/nghiên cứu (1%). Mức lương trung bình kỹ sư mới tốt nghiệp: 8–20 triệu VNĐ/tháng; kỹ sư R&amp;D: 20–40 triệu VNĐ/tháng.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Pitfall
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Một sản phẩm thành công về mặt kỹ thuật là chưa đủ — còn phải đáp ứng các ràng buộc kinh tế, xã hội, môi trường, pháp lý, độ an toàn và giá thành thị trường. Không thể chỉ đánh giá yếu tố kỹ thuật mà bỏ qua tính khả thi thương mại và đạo đức nghề nghiệp.</p>
+</div>
+</div>
+</section>
+<section id="câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="câu-hỏi-thảo-luận-nhóm-tài-liệu-tham-khảo"><span class="header-section-number">1.5</span> Câu hỏi thảo luận nhóm &amp; tài liệu tham khảo</h2>
+<section id="câu-hỏi-thảo-luận" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="câu-hỏi-thảo-luận"><span class="header-section-number">1.5.1</span> Câu hỏi thảo luận</h3>
+<ol type="1">
+<li>Phân biệt vai trò của “nhà khoa học” và “kỹ sư” bằng một ví dụ cụ thể trong lĩnh vực Điện tử Viễn thông.</li>
+<li>Áp dụng mô hình CDIO cho ý tưởng đồ án nhóm của bạn — mô tả ngắn từng bước.</li>
+<li>Nêu một tình huống vi phạm đạo đức nghề nghiệp kỹ sư (giả định) và chỉ ra điều khoản IEEE Code of Ethics liên quan.</li>
+<li>Vì sao công chúng (như trong khảo sát Hideo Ohashi) thường nhầm nhà khoa học với kỹ sư? Điều này có ảnh hưởng gì đến nhận thức nghề nghiệp của sinh viên mới vào ngành?</li>
+<li>Theo thống kê phổ việc làm SEEE 2024, nếu bạn muốn theo hướng R&amp;D, cần chuẩn bị gì khác so với hướng vận hành/bảo trì?</li>
+</ol>
+</section>
+<section id="nguồn-tham-khảo-của-chương" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="nguồn-tham-khảo-của-chương"><span class="header-section-number">1.5.2</span> Nguồn tham khảo của chương</h3>
+<ul>
+<li>Bộ quy tắc đạo đức nghề nghiệp kỹ sư IEEE <span class="citation" data-cites="ieee_code_of_ethics">(<a href="#ref-ieee_code_of_ethics" role="doc-biblioref">IEEE, không ngày</a>)</span>.</li>
+<li>Đề cương chính thức và slide bài giảng học phần ET2000, Trường Điện – Điện tử (SEEE), Đại học Bách khoa Hà Nội.</li>
+<li>Xem thêm Phụ lục A (Bảng thuật ngữ) và Danh mục tài liệu tham khảo cuối sách.</li>
+</ul>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-ieee_code_of_ethics" class="csl-entry" role="listitem">
+IEEE. không ngày. <em>IEEE Code of Ethics</em>. IEEE.
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+<nav class="page-navigation" aria-label="Page">
+  <div class="nav-page nav-page-previous">
+      <a href="../index.html" class="pagination-link" aria-label="Giới thiệu mở đầu">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Giới thiệu mở đầu</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/ch02_dtvt.html" class="pagination-link" aria-label="Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
