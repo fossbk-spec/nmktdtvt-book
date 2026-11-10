@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trắc nghiệm Chương 3 — ET2000</title>
+  <link rel="stylesheet" href="assets/quiz.css">
+  <script>
+    window.quizData = [
+      {
+        question: "Công cụ nào giúp mô tả vấn đề bằng Who, What, Where, When, Why, How và How much/many?",
+        options: ["5W2H", "SMART", "5 Whys", "TRIZ"],
+        answer: 0,
+        explanation: "5W2H dùng bảy câu hỏi này để làm rõ bài toán trước khi tìm giải pháp."
+      },
+      {
+        question: "Trong ví dụ minh họa giả định về thiết bị cảnh báo cửa mở, chi tiết nào làm mục tiêu có thể đo lường theo SMART?",
+        options: ["Phát tín hiệu báo trong tối đa 2 giây kể từ khi cửa mở", "Hỏi ai cần nhận cảnh báo", "Hỏi cần những linh kiện và nguồn lực nào", "Dùng cảm biến cửa và tín hiệu báo"],
+        answer: 0,
+        explanation: "Mốc tối đa 2 giây và cách bấm giờ cho phép kiểm tra mục tiêu; đây là mục tiêu của tình huống giả định, không phải kết quả đo thực tế."
+      },
+      {
+        question: "Mô hình nào có chu trình Plan → Do → Check → Act để cải tiến liên tục?",
+        options: ["GROW", "PDCA", "OODA Loop", "8D"],
+        answer: 1,
+        explanation: "Chương ghi PDCA là Plan → Do → Check → Act và lặp lại liên tục để cải tiến."
+      },
+      {
+        question: "Theo nguyên lý Pareto 80/20 được nêu trong chương, công cụ này giúp nhóm ưu tiên điều gì?",
+        options: ["Những nguyên nhân cốt lõi gây phần lớn hậu quả/lỗi", "Quan hệ phụ thuộc giữa hai biến số kỹ thuật", "Trình tự xử lý của một thuật toán", "Các nhóm Machine, Material, Method và Manpower"],
+        answer: 0,
+        explanation: "Pareto được dùng để ưu tiên xử lý nhóm nguyên nhân cốt lõi gây phần lớn lỗi."
+      },
+      {
+        question: "Trong quy trình EDP chín bước, bước nào đến ngay sau ‘Thực hiện sơ đồ khối’?",
+        options: ["Tạo chỉ tiêu kỹ thuật", "Lập kế hoạch", "Thiết kế chi tiết từng khối", "Lựa chọn phương án tối ưu"],
+        answer: 2,
+        explanation: "EDP đặt ‘Thiết kế chi tiết từng khối’ ở bước 5, sau sơ đồ khối ở bước 4."
+      },
+      {
+        question: "Trong quy trình xác nhận phần cứng, giai đoạn nào kiểm tra vỏ hộp, độ bền cơ học, môi trường và an toàn điện?",
+        options: ["PoC", "EVT", "DVT", "PVT"],
+        answer: 2,
+        explanation: "Chương mô tả các phép xác nhận đó ở DVT (Design Validation Test)."
+      },
+      {
+        question: "Case study ‘Luggage rack extrusion quality defects’ trong chương minh họa công cụ nào để trình bày bài toán lỗi chất lượng trên một trang giấy?",
+        options: ["Báo cáo A3", "Biểu đồ phân tán", "Lưu đồ thuật toán", "Mô hình GROW"],
+        answer: 0,
+        explanation: "Chương dùng bài toán lỗi nhôm định hình khung hành lý để minh họa báo cáo A3."
+      },
+      {
+        question: "Trong bảng vai trò của quy trình Nghiên cứu & Phát triển sản phẩm, ai chịu trách nhiệm kiểm thử và xác nhận?",
+        options: ["CEO / CTO / Product Director", "Functional Manager / Architect", "Kỹ sư phần cứng", "Kỹ sư QC"],
+        answer: 3,
+        explanation: "Bảng phân công vai trò ghi kỹ sư QC phụ trách kiểm thử và xác nhận (validate)."
+      }
+    ];
+  </script>
+  <script src="assets/quiz.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="wrap"><a class="back-link" href="index.html">← Về trang chủ</a><h1>Trắc nghiệm Chương 3</h1><p class="subtitle">Công cụ và các phương pháp thiết kế kỹ thuật</p></div></header>
+  <main class="wrap"><p class="intro">Chọn một đáp án cho mỗi câu. Bạn có thể để trống câu chưa chắc chắn; sau khi nộp bài sẽ thấy đáp án và giải thích.</p><form id="quiz-form"><div class="actions"><button type="submit">Nộp bài</button><p id="quiz-result" class="result" tabindex="-1" role="status" aria-live="polite"></p></div></form></main>
+</body>
+</html>

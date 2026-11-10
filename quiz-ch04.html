@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trắc nghiệm Chương 4 — ET2000</title>
+  <link rel="stylesheet" href="assets/quiz.css">
+  <script>
+    window.quizData = [
+      {
+        question: "Trong sơ đồ hệ thống IoT của chương, dữ liệu từ cảm biến đi đến khối nào để xử lý trước khi lên màn hình hoặc cloud?",
+        options: ["Vi điều khiển Arduino Uno / ESP32", "Màn hình LCD 16x2 / OLED", "Blynk Cloud / ThingSpeak", "Smartphone App"],
+        answer: 0,
+        explanation: "Sơ đồ cho thấy cảm biến gửi dữ liệu về vi điều khiển, rồi vi điều khiển cập nhật màn hình hoặc gửi lên cloud."
+      },
+      {
+        question: "Trong bảng phân công nhóm năm người, ai phụ trách thực nghiệm đo đạc và viết báo cáo Word?",
+        options: ["Project Manager", "Hardware Engineer", "Cloud & UI/UX Engineer", "QA & Documentation Engineer"],
+        answer: 3,
+        explanation: "Vai trò QA & Documentation Engineer phụ trách đo đạc 30–50 lần, viết báo cáo và làm slide."
+      },
+      {
+        question: "Trong ví dụ tính toán minh họa của chương, ADC 10-bit Arduino nhận 2,5 V trên thang 0–5 V cho giá trị số xấp xỉ bao nhiêu?",
+        options: ["0", "512", "1023", "4095"],
+        answer: 1,
+        explanation: "Ví dụ tính 2,5/5 × (2¹⁰ − 1) = 511,5 ≈ 512; đây là phép tính minh họa, không phải phép đo thực tế."
+      },
+      {
+        question: "Hai đường dây của giao thức I2C trong chương là gì?",
+        options: ["SDA và SCL", "Wi-Fi và MQTT", "LCD và OLED", "LED và Relay"],
+        answer: 0,
+        explanation: "I2C dùng SDA cho dữ liệu và SCL cho xung nhịp."
+      },
+      {
+        question: "Theo lộ trình sáu tuần, tuần nào dành cho thực nghiệm đo đạc 30–50 lần và tính sai số?",
+        options: ["Tuần 2", "Tuần 3", "Tuần 5", "Tuần 6"],
+        answer: 2,
+        explanation: "Lộ trình đặt việc đo đạc và tính sai số ở tuần 5."
+      },
+      {
+        question: "Trong danh mục đề tài mẫu, đề tài nào dùng HC-SR04, PIR, Servo barie và LCD?",
+        options: ["Trạm quan trắc môi trường thông minh", "Hệ thống quản lý bãi đỗ xe thông minh", "Thùng rác thông minh không tiếp xúc", "Hệ thống nhà thông minh tự động"],
+        answer: 1,
+        explanation: "Bộ linh kiện này được liệt kê cho đề tài mẫu quản lý bãi đỗ xe thông minh."
+      },
+      {
+        question: "Theo phần Pitfall, khi ESP32 reset liên tục do sụt áp lúc kích hoạt Relay và Buzzer, chương đề xuất cách cấp nguồn nào?",
+        options: ["Dùng nguồn DC riêng cho khối cơ cấu chấp hành", "Cấp chung toàn bộ từ cổng USB máy tính", "Gửi dữ liệu qua Wi-Fi đến Blynk Cloud", "Nối màn hình qua I2C"],
+        answer: 0,
+        explanation: "Chương khuyên cấp nguồn DC riêng cho cơ cấu chấp hành thay vì lấy chung từ USB máy tính."
+      },
+      {
+        question: "Ở tuần 6 của lộ trình đồ án, nhóm hoàn thiện những đầu ra nào?",
+        options: ["Báo cáo A3 và xác định bài toán", "Sơ đồ khối và chọn linh kiện", "Mạch PoC trên breadboard", "Báo cáo Word, slide 10–12 trang và demo 10 phút"],
+        answer: 3,
+        explanation: "Tuần 6 dành cho báo cáo Word, slide và thuyết trình demo trước lớp."
+      }
+    ];
+  </script>
+  <script src="assets/quiz.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="wrap"><a class="back-link" href="index.html">← Về trang chủ</a><h1>Trắc nghiệm Chương 4</h1><p class="subtitle">Triển khai và đánh giá bài tập lớn thiết kế — Team Project</p></div></header>
+  <main class="wrap"><p class="intro">Chọn một đáp án cho mỗi câu. Bạn có thể để trống câu chưa chắc chắn; sau khi nộp bài sẽ thấy đáp án và giải thích.</p><form id="quiz-form"><div class="actions"><button type="submit">Nộp bài</button><p id="quiz-result" class="result" tabindex="-1" role="status" aria-live="polite"></p></div></form></main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trắc nghiệm Chương 1 — ET2000</title>
+  <link rel="stylesheet" href="assets/quiz.css">
+  <script>
+    window.quizData = [
+      {
+        question: "Theo bản đồ khái niệm của chương, kỹ thuật đi từ đâu đến đâu?",
+        options: ["Từ hệ thống vật lý qua đo đạc đến mô hình trừu tượng", "Từ mô hình và ý tưởng thiết kế đến sản phẩm vật lý hữu ích", "Từ phép đo đến câu hỏi ‘Tại sao?’", "Từ hệ thống vật lý đến thí nghiệm kiểm tra mô hình"],
+        answer: 1,
+        explanation: "Kỹ thuật bắt đầu từ mô hình/ý tưởng, chuyển thành thông số thiết kế rồi tạo sản phẩm; hướng còn lại thuộc khoa học."
+      },
+      {
+        question: "Trong bốn nhóm nhân lực công nghệ, ai ứng dụng trực tiếp nguyên lý kỹ thuật đã thiết lập và ít làm lý thuyết hơn?",
+        options: ["Nhà khoa học", "Kỹ sư", "Nhà công nghệ", "Kỹ thuật viên"],
+        answer: 2,
+        explanation: "Bảng vai trò mô tả nhà công nghệ là người ứng dụng trực tiếp nguyên lý kỹ thuật đã thiết lập."
+      },
+      {
+        question: "Theo chương, vòng chuyển dịch nào đặc trưng cho kinh tế tri thức?",
+        options: ["Tiền → Hàng → Tiền", "Thiết kế → Xây dựng → Triển khai → Cải tiến", "Conceive → Design → Implement → Operate", "Tiền → Thông tin/Tri thức → Tiền"],
+        answer: 3,
+        explanation: "Chương đối chiếu kinh tế truyền thống dựa trên hàng hóa với kinh tế tri thức dựa trên thông tin và tri thức."
+      },
+      {
+        question: "Trong bộ công cụ máy tính của kỹ sư, công cụ nào dùng để thiết kế sơ đồ nguyên lý và mạch in PCB?",
+        options: ["CAD", "CAE", "CAM", "EDA"],
+        answer: 3,
+        explanation: "EDA hỗ trợ thiết kế sơ đồ nguyên lý và PCB; CAD, CAE, CAM có công dụng khác trong bảng công cụ."
+      },
+      {
+        question: "Ở bước nào của CDIO, nhóm đưa sản phẩm vào sử dụng thực tế, theo dõi và thu thập phản hồi?",
+        options: ["Conceive", "Design", "Implement", "Operate"],
+        answer: 3,
+        explanation: "Operate là vận hành trong thực tế, quan sát/đo đạc, thu thập phản hồi và cải tiến theo vòng đời."
+      },
+      {
+        question: "Trong ví dụ minh họa về dữ liệu gửi không ổn định, hành động nào phù hợp với cam kết trung thực của IEEE?",
+        options: ["Ghi cả các lần không đạt và nêu giới hạn kết luận", "Chỉ nhận việc trong phạm vi đủ năng lực", "Ghi nhận đúng đóng góp của từng thành viên", "Công khai xung đột lợi ích"],
+        answer: 0,
+        explanation: "Ví dụ của cam kết trung thực yêu cầu báo cáo cả kết quả không đạt thay vì chỉ chọn kết quả đẹp."
+      },
+      {
+        question: "Trong khảo sát Hideo Ohashi được chương dẫn lại, người nào được học sinh nêu tên nhưng thực chất là nhà khoa học?",
+        options: ["Thomas Edison", "Albert Einstein", "Wright Brothers", "Alexander Graham Bell"],
+        answer: 1,
+        explanation: "Chương nêu Albert Einstein trong lượt bình chọn và chú thích ông thực chất là nhà khoa học."
+      },
+      {
+        question: "Theo thống kê phổ việc làm SEEE 2024 trong chương, nhóm việc làm nào chiếm 68%?",
+        options: ["Kỹ sư thiết kế/phát triển", "Kỹ sư lắp đặt/vận hành/bảo trì", "Quản lý sản xuất/sản phẩm", "Kinh doanh/bán hàng"],
+        answer: 0,
+        explanation: "Bảng thống kê nêu kỹ sư thiết kế/phát triển chiếm 68%."
+      }
+    ];
+  </script>
+  <script src="assets/quiz.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="wrap"><a class="back-link" href="index.html">← Về trang chủ</a><h1>Trắc nghiệm Chương 1</h1><p class="subtitle">Giới thiệu chung về các lĩnh vực kỹ thuật và nghề nghiệp kỹ sư</p></div></header>
+  <main class="wrap"><p class="intro">Chọn một đáp án cho mỗi câu. Bạn có thể để trống câu chưa chắc chắn; sau khi nộp bài sẽ thấy đáp án và giải thích.</p><form id="quiz-form"><div class="actions"><button type="submit">Nộp bài</button><p id="quiz-result" class="result" tabindex="-1" role="status" aria-live="polite"></p></div></form></main>
+</body>
+</html>

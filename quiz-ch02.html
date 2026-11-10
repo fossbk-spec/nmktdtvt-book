@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trắc nghiệm Chương 2 — ET2000</title>
+  <link rel="stylesheet" href="assets/quiz.css">
+  <script>
+    window.quizData = [
+      {
+        question: "Trong mô hình AIoT năm lớp của chương, cảm biến và cơ cấu chấp hành thuộc lớp nào?",
+        options: ["Lớp 1 — Thiết bị vật lý", "Lớp 2 — Phần cứng", "Lớp 3 — Phần mềm hệ thống", "Lớp 4 — Mạng & giao thức"],
+        answer: 0,
+        explanation: "Lớp 1 tiếp xúc môi trường thực qua cảm biến và cơ cấu chấp hành."
+      },
+      {
+        question: "Nhóm nào chỉ gồm các linh kiện thụ động được liệt kê trong chương?",
+        options: ["Điện trở, tụ điện, cuộn cảm", "Diode, transistor, vi mạch IC", "BJT, MOSFET, Op-Amp UA741", "Timer 555, TTL 7400, CMOS 4000"],
+        answer: 0,
+        explanation: "Chương xếp điện trở, tụ điện, cuộn cảm vào nhóm thụ động; các nhóm còn lại gồm linh kiện tích cực."
+      },
+      {
+        question: "Biểu thức nào là định luật Ohm được nêu trong chương?",
+        options: ["p = v · i", "v = i · R", "I = q/t", "P = I²R"],
+        answer: 1,
+        explanation: "Định luật Ohm trong chương viết là v = i · R."
+      },
+      {
+        question: "Theo phát biểu định luật Moore trong chương, đại lượng nào tăng gấp đôi sau mỗi 18–24 tháng?",
+        options: ["Mật độ tích hợp transistor trên vi mạch", "Công suất p = v · i", "Số khối chức năng của máy tính", "Số lớp của hệ thống AIoT"],
+        answer: 0,
+        explanation: "Chương phát biểu định luật Moore về mật độ tích hợp transistor trên vi mạch."
+      },
+      {
+        question: "Trong Ví dụ 4.6 của chương, công suất tính được trên điện trở 100 Ω khi dòng tối đa 35 mA là bao nhiêu?",
+        options: ["0,347 A", "35 mA", "100 Ω", "122,5 mW"],
+        answer: 3,
+        explanation: "Bài mẫu dùng P = I²R và cho kết quả 0,1225 W = 122,5 mW."
+      },
+      {
+        question: "Kỹ sư lập trình nhúng gắn với lớp nào trong bảng vị trí việc làm của mô hình AIoT?",
+        options: ["Lớp 1 — Thiết bị vật lý", "Lớp 2 — Phần cứng", "Lớp 3 — Phần mềm hệ thống", "Lớp 5 — Ứng dụng & AI/ML"],
+        answer: 2,
+        explanation: "Lớp 3 gồm driver, firmware, RTOS và tương ứng với kỹ sư lập trình nhúng."
+      },
+      {
+        question: "Trong phần case study về linh kiện, IC nào được mô tả là IC định thời có 8 chân?",
+        options: ["NE555N", "UA741 (LM741)", "TTL 7400", "CMOS 4000"],
+        answer: 0,
+        explanation: "Chương liệt kê tám chân của IC định thời NE555N."
+      },
+      {
+        question: "Theo phần Pitfall, tác nhân nào có thể làm hỏng vi mạch bán dẫn khi thao tác với bo mạch?",
+        options: ["Nhiễu điện từ và tĩnh điện EOS/ESD", "Đại số Boolean và cổng NAND", "Bus I2C/SPI/UART", "Phân tích dữ liệu AI/ML"],
+        answer: 0,
+        explanation: "Chương cảnh báo EMI và EOS/ESD có thể làm hỏng linh kiện bán dẫn nếu thiếu biện pháp phòng tránh."
+      }
+    ];
+  </script>
+  <script src="assets/quiz.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><div class="wrap"><a class="back-link" href="index.html">← Về trang chủ</a><h1>Trắc nghiệm Chương 2</h1><p class="subtitle">Giới thiệu về ngành Kỹ thuật Điện tử – Viễn thông</p></div></header>
+  <main class="wrap"><p class="intro">Chọn một đáp án cho mỗi câu. Bạn có thể để trống câu chưa chắc chắn; sau khi nộp bài sẽ thấy đáp án và giải thích.</p><form id="quiz-form"><div class="actions"><button type="submit">Nộp bài</button><p id="quiz-result" class="result" tabindex="-1" role="status" aria-live="polite"></p></div></form></main>
+</body>
+</html>
