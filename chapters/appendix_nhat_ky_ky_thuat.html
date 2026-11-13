@@ -957,11 +957,11 @@ Thành viên tham gia: ........................................
 </section>
 <section id="d.13-ví-dụ-minh-họa-nhật-ký-của-một-nhóm-sinh-viên" class="level2">
 <h2 class="anchored" data-anchor-id="d.13-ví-dụ-minh-họa-nhật-ký-của-một-nhóm-sinh-viên">D.13 Ví dụ minh họa: nhật ký của một nhóm sinh viên</h2>
-<p>Mục này tóm tắt và đọc phản biện một nhật ký thật của một nhóm 5 sinh viên năm nhất (học kỳ 2025.1, đề tài “Thiết bị đo khoảng cách bằng cảm biến siêu âm HC-SR04”). Tên người, mã số, email và tên giảng viên đã được lược bỏ; số liệu giữ nguyên như trong nhật ký. Đây là bài làm của sinh viên: nhiều chỗ tốt để học theo, và có những chỗ <strong>chưa nhất quán</strong>, được nêu ra để nhóm khác tránh lặp lại. Nội dung dưới đây dựa trên các phần chính của nhật ký (bốn tuần đầu, kiểm thử, các buổi cuối); không phải mọi buổi đều được đối chiếu từng dòng.</p>
+<p>Mục này tóm tắt và đọc phản biện một nhật ký thật của một nhóm sinh viên năm nhất (đề tài “Thiết bị đo khoảng cách bằng cảm biến siêu âm HC-SR04”). Tên người, mã số, email, lớp, học kỳ, lịch và địa điểm làm việc, tên giảng viên đã được lược bỏ hoặc nói chung; số liệu giữ nguyên như trong nhật ký. Đây là bài làm của sinh viên: nhiều chỗ tốt để học theo, và có những chỗ <strong>chưa nhất quán</strong>, được nêu ra để nhóm khác tránh lặp lại. Nội dung dưới đây dựa trên các phần chính của nhật ký (bốn tuần đầu, kiểm thử, các buổi cuối); không phải mọi buổi đều được đối chiếu từng dòng.</p>
 <section id="d.13.1-nhật-ký-trông-như-thế-nào" class="level3">
 <h3 class="anchored" data-anchor-id="d.13.1-nhật-ký-trông-như-thế-nào">D.13.1 Nhật ký trông như thế nào</h3>
 <ul>
-<li><strong>Trang đầu:</strong> tên nhóm, đề tài, lớp, học kỳ, bảng thành viên (vai trò), lịch làm việc (trực tiếp thứ 2 và thứ 5, trực tuyến các ngày khác, tuần nghỉ giữa kỳ).</li>
+<li><strong>Trang đầu:</strong> tên nhóm, đề tài, bảng thành viên (vai trò), lịch làm việc (họp trực tiếp và trực tuyến, tuần nghỉ giữa kỳ).</li>
 <li><strong>Theo tuần, rồi theo buổi họp:</strong> mỗi buổi có ngày, giờ, hình thức (trực tiếp hoặc trực tuyến), địa điểm hoặc nền tảng, thành phần tham gia, nội dung theo khung giờ, <strong>kết quả đạt được</strong> và <strong>việc về nhà</strong>.</li>
 <li><strong>Buổi đầu tiên</strong> ghi cả hai đề tài được đề xuất cùng ưu và nhược điểm (một đề tài bị loại vì khó kiểm tra độ chính xác), mục tiêu ban đầu (bản demo sau khoảng 4 tuần, độ chính xác khoảng 98%), phân vai năm người, yêu cầu chức năng và phi chức năng, kế hoạch 5 giai đoạn trong 12 tuần.</li>
 <li><strong>Bảng yêu cầu chức năng</strong> có mã (FR1, FR2, …), nhóm chức năng và mô tả có thể kiểm tra (ví dụ phạm vi 2–400 cm, cập nhật mỗi 500 ms, hiệu chỉnh theo nhiệt độ).</li>
@@ -1071,8 +1071,8 @@ Thành viên tham gia: ........................................
 <ol type="1">
 <li><strong>Tính sai số.</strong> Với bảng đo ở trên, sai số tuyệt đối trung bình tính lại là 0,35 cm và sai số tương đối trung bình khoảng 0,87%; nhật ký ghi “0,48 cm (0,96%)”. Bài học: ghi công thức, tính lại bằng bảng tính, và nêu luôn sai số lớn nhất (ở đây 1,2 cm tại điểm 5 cm, tương ứng 4%).</li>
 <li><strong>Số liệu không khớp giữa các tài liệu.</strong> Tổng chi phí là 495.500 đồng ở buổi tuần 2 nhưng 450.000 đồng ở bản trình bày cuối; thời gian thực hiện được ghi là 12 tuần (kế hoạch), 8 tuần và 9 tuần (ở các chỗ khác). Bài học: mỗi con số quan trọng (chi phí, thời gian, số test case) có <strong>một nơi ghi duy nhất</strong>, các nơi khác trỏ về đó.</li>
-<li><strong>Kết luận mâu thuẫn với số liệu.</strong> Báo cáo kiểm thử ghi 12/12 test case đạt, còn bản trình bày ghi 9 test case; trong khi đó test case về góc nghiêng ghi rõ sai số +3,8% (30 độ) và +8,5% (45 độ) là <strong>không đạt</strong> ngưỡng 2%. Có thể đúng nếu phạm vi yêu cầu chỉ tới 15 độ, nhưng khi đó phải ghi phạm vi này vào yêu cầu và kết luận “đạt trong phạm vi quy định”.</li>
-<li><strong>Nhận định kỹ thuật chưa được kiểm chứng.</strong> Nhật ký đo kính trong suốt cho sai số -0,6% (đạt), nhưng phần hỏi đáp lại nêu “không đo tốt vật trong suốt” là hạn chế chính. Hai điều này mâu thuẫn; nhóm cần đo lại hoặc bỏ nhận định không có số liệu hỗ trợ.</li>
+<li><strong>Kết luận mâu thuẫn với số liệu.</strong> Báo cáo kiểm thử giữa kỳ ghi 12/12 test case đạt, còn slide thuyết trình cuối ghi bảng 9 test case (hai tài liệu khác nhau, nhật ký không giải thích vì sao số lượng khác); trong khi đó test case về góc nghiêng ghi rõ sai số +3,8% (30 độ) và +8,5% (45 độ) là <strong>không đạt</strong> ngưỡng 2%. Có thể chấp nhận được nếu phạm vi yêu cầu chỉ tới 15 độ (nhật ký có ghi 15 độ là mức chấp nhận được), nhưng khi đó phải ghi phạm vi này vào yêu cầu và kết luận “đạt trong phạm vi quy định”.</li>
+<li><strong>Nhận định kỹ thuật chưa được kiểm chứng.</strong> Nhật ký đo kính trong suốt cho sai số -0,6% (đạt), nhưng phần hỏi đáp lại nêu “không đo tốt vật trong suốt” là hạn chế chính. Hai điều này chưa khớp; nhóm nên đo lại để kiểm chứng, hoặc nêu rõ nhận định đó dựa trên nguồn nào.</li>
 <li><strong>Nhiều phiên bản công thức.</strong> Tốc độ âm theo nhiệt độ ghi là v = 331,3 + 0,606·T ở tuần 1 và v = 331,5 + 0,6·T ở bản trình bày. Hai công thức gần nhau nhưng nên chọn một, ghi nguồn, và dùng nhất quán trong mã nguồn.</li>
 <li><strong>Quyết định cuối không được ghi.</strong> Linh kiện đo nhiệt độ ở thiết kế là DS18B20 nhưng sơ đồ nguyên lý cuối nhắc BME-280; các buổi cuối bàn việc chuyển từ Arduino sang ESP32 theo gợi ý của giảng viên, trong khi sơ đồ cuối vẫn vẽ Arduino Uno. Bài học: mỗi lần đổi linh kiện hoặc nền tảng ghi <strong>lý do, thời điểm, ảnh hưởng</strong> (giai đoạn 5) và nêu rõ phương án cuối cùng.</li>
 <li><strong>Thời lượng kiểm thử.</strong> Bảng tổng hợp ghi “ổn định 4 giờ” còn test case độ ổn định trong nhật ký đo 180 lần trong 30 phút. Có thể là hai bài đo khác nhau, nhưng nhật ký không nói rõ.</li>
@@ -1094,7 +1094,7 @@ Thành viên tham gia: ........................................
 <ul>
 <li>Tài liệu hướng dẫn xây dựng nhật ký kỹ thuật cho dự án nghiên cứu và phát triển sản phẩm (tài liệu nội bộ của học phần ET2000).</li>
 <li>Nối chéo với Chương 3 (công cụ thiết kế) và Chương 4 (đồ án nhóm) của sách này.</li>
-<li>Nhật ký kỹ thuật của một nhóm sinh viên (học kỳ 2025.1), đã lược bỏ thông tin cá nhân; dùng ở D.13.</li>
+<li>Nhật ký kỹ thuật của một nhóm sinh viên đã lược bỏ thông tin cá nhân; dùng ở D.13.</li>
 </ul>
 
 
